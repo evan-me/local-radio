@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Build macOS package
-        run: npm run electron:build:mac
+        run: npx electron-builder --mac dmg --publish never
 
       - name: Upload macOS artifacts
         uses: actions/upload-artifact@v4
@@ -51,7 +51,7 @@ jobs:
         run: npm install
 
       - name: Build Windows package
-        run: npm run electron:build:win
+        run: npx electron-builder --win nsis --publish never
 
       - name: Upload Windows artifacts
         uses: actions/upload-artifact@v4
@@ -78,6 +78,8 @@ jobs:
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: release-assets/**
           generate_release_notes: true

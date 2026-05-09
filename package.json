@@ -2,6 +2,8 @@
   "name": "local-radio-desktop",
   "version": "1.0.1",
   "private": true,
+  "description": "A local-data desktop radio player built with Electron, Vite, and React.",
+  "author": "evanzw",
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
