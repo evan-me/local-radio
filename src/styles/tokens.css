@@ -1,0 +1,45 @@
+/* ===== Design tokens for the desktop player ===== */
+
+:root {
+  /* Color: Blue palette */
+  --blue-primary:  #8ddbff;
+  --blue-bright:   #3dd7ff;
+  --blue-soft:     #7ec1ff;
+  --blue-dim:      rgba(141, 219, 255, 0.45);
+  --blue-muted:    rgba(141, 219, 255, 0.22);
+  --blue-border:   rgba(136, 219, 255, 0.20);
+  --blue-border2:  rgba(136, 219, 255, 0.36);
+
+  /* Color: Accent */
+  --accent:   #8bffda;
+  --accent2:  #7c9cff;
+
+  /* Color: Status */
+  --color-warn:    #ffbb3d;
+  --color-danger:  #ff4d6d;
+  --color-healthy: #4dff8f;
+
+  /* Color: Text */
+  --text:       #d6eeff;
+  --text-dim:   rgba(214, 238, 255, 0.60);
+  --text-muted: rgba(214, 238, 255, 0.32);
+
+  /* Glow */
+  --glow:    0 0 8px rgba(61, 215, 255, 0.50), 0 0 20px rgba(61, 215, 255, 0.15);
+  --glow-sm: 0 0 6px rgba(61, 215, 255, 0.40);
+
+  /* Typography */
+  --font-mono: ui-monospace, 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+  /* Window */
+  --win-width:            540px;
+  --win-height:           680px;
+  --win-height-collapsed: 344px;
+  --win-radius:           20px;
+
+  /* Layout heights */
+  --titlebar-h: 38px;
+  --map-header-h: 36px;
+  --player-h: 270px;
+}

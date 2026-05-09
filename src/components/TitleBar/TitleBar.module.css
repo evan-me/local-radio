@@ -1,0 +1,134 @@
+/* TitleBar.module.css */
+
+.titlebar {
+  height: var(--titlebar-h);
+  flex-shrink: 0;
+  background: rgba(11, 28, 49, 0.85);
+  border-bottom: 1px solid rgba(99, 175, 255, 0.10);
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  -webkit-app-region: drag;
+}
+
+.traffic {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  -webkit-app-region: no-drag;
+}
+
+.traffic i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  flex-shrink: 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.tc1 { background: #ff5f57; box-shadow: 0 0 6px rgba(255,95,87,0.45); }
+.tc2 { background: #febc2e; box-shadow: 0 0 6px rgba(254,188,46,0.42); }
+.tc3 { background: #27c93f; box-shadow: 0 0 5px rgba(39,201,63,0.5); }
+
+.traffic i::before,
+.traffic i::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 0.14s ease;
+}
+
+.tc1::before {
+  width: 6px;
+  height: 1.4px;
+  background: rgba(70, 0, 0, 0.75);
+  transform: rotate(45deg);
+}
+
+.tc1::after {
+  width: 6px;
+  height: 1.4px;
+  background: rgba(70, 0, 0, 0.75);
+  transform: rotate(-45deg);
+}
+
+.tc2::before {
+  width: 6px;
+  height: 1.4px;
+  background: rgba(98, 64, 0, 0.72);
+}
+
+.traffic i:hover::before,
+.traffic i:hover::after {
+  opacity: 1;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 6px;
+  color: var(--blue-dim);
+  font-family: var(--font-sans);
+  font-weight: 700;
+  margin-left: 16px;
+}
+
+.right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+  -webkit-app-region: no-drag;
+}
+
+.healthInfo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+.healthDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.ok {
+  background: #4dff8f;
+  box-shadow: 0 0 8px rgba(77,255,143,0.6);
+}
+
+.fail {
+  background: #ff4d6d;
+  box-shadow: 0 0 8px rgba(255,77,109,0.6);
+}
+
+.langBtn {
+  background: none;
+  border: 1px solid rgba(99, 175, 255, 0.25);
+  border-radius: 3px;
+  color: var(--blue-dim);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 2px 7px;
+  cursor: pointer;
+  line-height: 1.4;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.langBtn:hover {
+  border-color: rgba(99, 175, 255, 0.6);
+  color: var(--blue-glow);
+}

@@ -1,0 +1,55 @@
+/* App.module.css */
+
+.win {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow:
+    inset 0 0 0 1px rgba(99, 175, 255, 0.18),
+    0 0 40px rgba(61, 215, 255, 0.10),
+    0 32px 80px rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(6, 20, 36, 0.97), rgba(7, 13, 22, 0.99));
+  position: relative;
+  transition: height 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.win.collapsed {
+  height: 100%;
+}
+
+.layout {
+  flex: 1;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) var(--player-h);
+  overflow: hidden;
+  transition: grid-template-rows 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.layout > * {
+  min-height: 0;
+}
+
+.layoutFallback {
+  flex: 1;
+  min-height: 0;
+  background:
+    radial-gradient(circle at 50% 24%, rgba(61, 215, 255, 0.08), transparent 34%),
+    linear-gradient(180deg, rgba(10, 22, 36, 0.92), rgba(7, 13, 22, 0.98));
+}
+
+.win.collapsed .layout {
+  grid-template-rows: var(--map-header-h) var(--player-h);
+}
+
+:global(.deck-widget),
+:global(.luma-stats-widget),
+:global(.deck-tooltip),
+:global(.stats-widget),
+:global(#deckgl-overlay-stats) {
+  display: none !important;
+}

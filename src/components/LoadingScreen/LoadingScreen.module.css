@@ -1,0 +1,50 @@
+/* LoadingScreen.module.css */
+
+.root {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background:
+    radial-gradient(circle at 30% 10%, rgba(79, 149, 255, 0.20), transparent 30%),
+    linear-gradient(180deg, #07111f, #071018);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  transition: opacity 0.38s cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: auto;
+}
+
+.root.out {
+  opacity: 0;
+  pointer-events: none;
+  transition-delay: 0s;
+}
+
+.logo {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 6px;
+  color: var(--blue-bright);
+  text-shadow: var(--glow);
+}
+
+.barWrap {
+  width: 160px;
+  height: 1px;
+  background: rgba(61, 215, 255, 0.12);
+}
+
+.bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue-bright), var(--accent));
+  transition: width 0.4s ease;
+}
+
+.msg {
+  font-size: 11px;
+  color: var(--text-dim);
+  letter-spacing: 2px;
+}
