@@ -1,12 +1,12 @@
 {
-  "name": "local-radio-desktop",
+  "name": "local-radio-desktop-static",
   "version": "1.1.2",
   "private": true,
-  "description": "A local-data desktop radio player built with Electron, Vite, and React.",
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.node.json && tsc && vite build",
+    "snapshot:build": "node scripts/build-snapshot.mjs",
     "preview": "vite preview",
     "electron:dev": "concurrently --kill-others-on-fail \"vite --host 127.0.0.1 --port 5173 --strictPort\" \"wait-on tcp:5173 && electron .\"",
     "electron:build": "npm run build && electron-builder",
@@ -16,6 +16,8 @@
   "dependencies": {
     "@deck.gl/core": "^9.3.2",
     "@deck.gl/layers": "^9.3.2",
+    "@luma.gl/core": "^9.3.3",
+    "@luma.gl/engine": "^9.3.3",
     "hls.js": "^1.6.16",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -36,7 +38,7 @@
     "wait-on": "^8.0.3"
   },
   "build": {
-    "appId": "com.localradio.desktop",
+    "appId": "com.radiome.static",
     "productName": "Local Radio",
     "directories": {
       "output": "release"
