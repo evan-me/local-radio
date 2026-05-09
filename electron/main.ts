@@ -109,7 +109,7 @@ function createWindow() {
   win.on('close', () => saveCurrentWindowState(win))
 
   if (isDev) {
-    const devUrl = process.env['VITE_DEV_SERVER_URL'] ?? 'http://localhost:5173'
+    const devUrl = process.env['VITE_DEV_SERVER_URL'] ?? 'http://127.0.0.1:5173'
     win.loadURL(devUrl)
     win.webContents.openDevTools({ mode: 'detach' })
   } else {

@@ -48,6 +48,10 @@ function loadHlsModule(): Promise<HlsModule> {
   return hlsModulePromise
 }
 
+function shouldLoopStream(url: string): boolean {
+  return url.startsWith('data:audio/')
+}
+
 async function attachHls(url: string): Promise<void> {
   const { default: Hls } = await loadHlsModule()
   return new Promise((resolve, reject) => {
@@ -175,6 +179,7 @@ export function PlayerHud() {
     resetShuffleRetry()
     audio.pause()
     detachHls()
+    audio.loop = false
     audio.removeAttribute('src')
     audio.load()
     setIsLoadingStream(false)
@@ -302,6 +307,7 @@ export function PlayerHud() {
     const reqId = ++playReqRef.current
     audio.pause()
     detachHls()
+    audio.loop = shouldLoopStream(url)
     setIsLoadingStream(true)
     setPlayDuration('00:00')
     logAudioEvent('play:attempt', { station: st.station_uuid, url, isHls })
@@ -321,6 +327,7 @@ export function PlayerHud() {
         if (fb && fb !== url) {
           audio.pause()
           detachHls()
+          audio.loop = shouldLoopStream(fb)
           const fbIsHls = fb.includes('.m3u8') || fb.includes('/chunklist')
           const doFb = fbIsHls
             ? attachHls(fb).then(() => audio.play())

@@ -93,14 +93,14 @@ src/store/                 Zustand 全局状态
 public/data/radio-snapshot.json
 ```
 
-仓库当前自带的是最小占位数据：
+仓库默认附带一份可直接运行的本地快照数据；如果你要替换为自己的本地数据，只需要保持同样的 JSON 顶层结构即可。下面是结构示例：
 
 ```json
 {
 	"snapshot_version": 1,
 	"generated_at": "2026-05-09T00:00:00.000Z",
 	"meta": {
-		"total_stations": 0,
+		"total_stations": 120,
 		"default_lang": "zh",
 		"detail_failures": 0
 	},
@@ -110,11 +110,17 @@ public/data/radio-snapshot.json
 		"countries": [],
 		"vibes": []
 	},
-	"stations": []
+	"stations": [
+		{
+			"station_uuid": "example-station",
+			"name": "Example Radio",
+			"stream_url": "https://example.com/live.mp3"
+		}
+	]
 }
 ```
 
-如果你要接入自己的本地数据，只需要保持同样的 JSON 顶层结构即可。没有数据时，应用会以空状态运行，而不是回退到任何远端源。
+快照为空时，应用会直接显示本地数据错误界面，提醒你先写入有效的 snapshot。
 
 ## 发布与同步
 
@@ -139,10 +145,10 @@ README 顶部图片直接读取仓库内文件：
 
 ```bash
 git add .
-git commit -m "chore: release v1.0.1"
+git commit -m "chore: release v1.1.2"
 git push origin main
-git tag v1.0.1
-git push origin v1.0.1
+git tag v1.1.2
+git push origin v1.1.2
 ```
 
 如果你只想重新触发某个版本的发布流程，也可以删除远端 tag 后重新推送同名 tag，或者在 GitHub Actions 页面手动重跑该工作流。

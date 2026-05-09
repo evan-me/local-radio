@@ -135,6 +135,7 @@ interface StoreState {
 
   // Map focus
   focusNodeId: string | null
+  focusNodeVersion: number
 
   // Language
   lang: Lang
@@ -202,6 +203,7 @@ export const useStore = create<StoreState>((set) => ({
   toastVisible: false,
   volume: initialVolume,
   focusNodeId: null,
+  focusNodeVersion: 0,
   lang: initialLang,
 
   setStations: (stations) => set({ stations }),
@@ -261,7 +263,11 @@ export const useStore = create<StoreState>((set) => ({
       })
       return { volume: safeVolume }
     }),
-  setFocusNodeId: (focusNodeId) => set({ focusNodeId }),
+  setFocusNodeId: (focusNodeId) =>
+    set((s) => ({
+      focusNodeId,
+      focusNodeVersion: s.focusNodeVersion + 1,
+    })),
   setLang: (lang) =>
     set((s) => {
       writePrefs({

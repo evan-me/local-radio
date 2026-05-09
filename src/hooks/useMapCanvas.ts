@@ -335,11 +335,12 @@ export function useMapCanvas(
 
   // ── Fly-to when focusNodeId changes ──────────────────────────────────────
   const focusNodeId = useStore(st => st.focusNodeId)
+  const focusNodeVersion = useStore(st => st.focusNodeVersion)
   const setFocusNodeId = useStore(st => st.setFocusNodeId)
   useEffect(() => {
     if (!focusNodeId) return
     if (flyToNode(focusNodeId)) setFocusNodeId(null)
-  }, [focusNodeId, mapNodes, setFocusNodeId])
+  }, [focusNodeId, focusNodeVersion, mapNodes, setFocusNodeId])
 
   // ── Initialize Deck.gl ──────────────────────────────────────────────────
   useEffect(() => {
@@ -424,9 +425,14 @@ export function useMapCanvas(
         })
       }
     }
+    const resizeObserver = new ResizeObserver(handleResize)
+    if (canvas.parentElement) {
+      resizeObserver.observe(canvas.parentElement)
+    }
     window.addEventListener('resize', handleResize)
 
     return () => {
+      resizeObserver.disconnect()
       window.removeEventListener('resize', handleResize)
       cancelAnimationFrame(rafIdRef.current)
       if ((canvas as any)._deckClickHandler) {

@@ -1,16 +1,4903 @@
 {
   "snapshot_version": 1,
-  "generated_at": "2026-05-09T00:00:00.000Z",
+  "generated_at": "2026-05-09T14:01:19.013Z",
   "meta": {
-    "total_stations": 0,
+    "total_stations": 120,
     "default_lang": "zh",
     "detail_failures": 0
   },
   "filters": {
-    "continents": [],
-    "genres": [],
-    "countries": [],
-    "vibes": []
+    "continents": [
+      {
+        "value": "Asia",
+        "label_en": "Asia",
+        "label_zh": "亚洲",
+        "count": 35
+      },
+      {
+        "value": "Europe",
+        "label_en": "Europe",
+        "label_zh": "欧洲",
+        "count": 31
+      },
+      {
+        "value": "North America",
+        "label_en": "North America",
+        "label_zh": "北美洲",
+        "count": 23
+      },
+      {
+        "value": "South America",
+        "label_en": "South America",
+        "label_zh": "南美洲",
+        "count": 14
+      },
+      {
+        "value": "Oceania",
+        "label_en": "Oceania",
+        "label_zh": "大洋洲",
+        "count": 6
+      },
+      {
+        "value": "Africa",
+        "label_en": "Africa",
+        "label_zh": "非洲",
+        "count": 6
+      }
+    ],
+    "countries": [
+      {
+        "value": "CN",
+        "label_en": "China",
+        "label_zh": "中国",
+        "count": 14,
+        "continent": "Asia"
+      },
+      {
+        "value": "US",
+        "label_en": "The United States Of America",
+        "label_zh": "美国",
+        "count": 9,
+        "continent": "North America"
+      },
+      {
+        "value": "HK",
+        "label_en": "Hong Kong",
+        "label_zh": "香港",
+        "count": 8,
+        "continent": "Asia"
+      },
+      {
+        "value": "DE",
+        "label_en": "Germany",
+        "label_zh": "德国",
+        "count": 7,
+        "continent": "Europe"
+      },
+      {
+        "value": "CA",
+        "label_en": "Canada",
+        "label_zh": "加拿大",
+        "count": 7,
+        "continent": "North America"
+      },
+      {
+        "value": "BR",
+        "label_en": "Brazil",
+        "label_zh": "巴西",
+        "count": 5,
+        "continent": "South America"
+      },
+      {
+        "value": "FR",
+        "label_en": "France",
+        "label_zh": "法国",
+        "count": 5,
+        "continent": "Europe"
+      },
+      {
+        "value": "MX",
+        "label_en": "Mexico",
+        "label_zh": "墨西哥",
+        "count": 4,
+        "continent": "North America"
+      },
+      {
+        "value": "SG",
+        "label_en": "Singapore",
+        "label_zh": "新加坡",
+        "count": 3,
+        "continent": "Asia"
+      },
+      {
+        "value": "CO",
+        "label_en": "Colombia",
+        "label_zh": "哥伦比亚",
+        "count": 3,
+        "continent": "South America"
+      },
+      {
+        "value": "EC",
+        "label_en": "Ecuador",
+        "label_zh": "厄瓜多尔",
+        "count": 3,
+        "continent": "South America"
+      },
+      {
+        "value": "GB",
+        "label_en": "The United Kingdom Of Great Britain And Northern Ireland",
+        "label_zh": "英国",
+        "count": 3,
+        "continent": "Europe"
+      },
+      {
+        "value": "TW",
+        "label_en": "Taiwan, Republic Of China",
+        "label_zh": "台湾",
+        "count": 3,
+        "continent": "Asia"
+      },
+      {
+        "value": "NZ",
+        "label_en": "New Zealand",
+        "label_zh": "新西兰",
+        "count": 3,
+        "continent": "Oceania"
+      },
+      {
+        "value": "AU",
+        "label_en": "Australia",
+        "label_zh": "澳大利亚",
+        "count": 2,
+        "continent": "Oceania"
+      },
+      {
+        "value": "PL",
+        "label_en": "Poland",
+        "label_zh": "波兰",
+        "count": 2,
+        "continent": "Europe"
+      },
+      {
+        "value": "NL",
+        "label_en": "The Netherlands",
+        "label_zh": "荷兰",
+        "count": 2,
+        "continent": "Europe"
+      },
+      {
+        "value": "SE",
+        "label_en": "Sweden",
+        "label_zh": "瑞典",
+        "count": 2,
+        "continent": "Europe"
+      },
+      {
+        "value": "ES",
+        "label_en": "Spain",
+        "label_zh": "西班牙",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "RO",
+        "label_en": "Romania",
+        "label_zh": "罗马尼亚",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "PT",
+        "label_en": "Portugal",
+        "label_zh": "葡萄牙",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "AR",
+        "label_en": "Argentina",
+        "label_zh": "阿根廷",
+        "count": 1,
+        "continent": "South America"
+      },
+      {
+        "value": "PE",
+        "label_en": "Peru",
+        "label_zh": "秘鲁",
+        "count": 1,
+        "continent": "South America"
+      },
+      {
+        "value": "IT",
+        "label_en": "Italy",
+        "label_zh": "意大利",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "BJ",
+        "label_en": "Benin",
+        "label_zh": "贝宁",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "ID",
+        "label_en": "Indonesia",
+        "label_zh": "印度尼西亚",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "MH",
+        "label_en": "The Marshall Islands",
+        "label_zh": "马绍尔群岛",
+        "count": 1,
+        "continent": "Oceania"
+      },
+      {
+        "value": "MG",
+        "label_en": "Madagascar",
+        "label_zh": "马达加斯加",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "AT",
+        "label_en": "Austria",
+        "label_zh": "奥地利",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "JP",
+        "label_en": "Japan",
+        "label_zh": "日本",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "SC",
+        "label_en": "Seychelles",
+        "label_zh": "塞舌尔",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "IE",
+        "label_en": "Ireland",
+        "label_zh": "爱尔兰",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "TR",
+        "label_en": "Türkiye",
+        "label_zh": "土耳其",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "SK",
+        "label_en": "Slovakia",
+        "label_zh": "斯洛伐克",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "HR",
+        "label_en": "Croatia",
+        "label_zh": "克罗地亚",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "CW",
+        "label_en": "Curacao",
+        "label_zh": "Curacao",
+        "count": 1
+      },
+      {
+        "value": "KP",
+        "label_en": "The Democratic Peoples Republic Of Korea",
+        "label_zh": "朝鲜",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "RU",
+        "label_en": "The Russian Federation",
+        "label_zh": "俄罗斯",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "SV",
+        "label_en": "El Salvador",
+        "label_zh": "萨尔瓦多",
+        "count": 1,
+        "continent": "North America"
+      },
+      {
+        "value": "CR",
+        "label_en": "Costa Rica",
+        "label_zh": "哥斯达黎加",
+        "count": 1,
+        "continent": "North America"
+      },
+      {
+        "value": "GH",
+        "label_en": "Ghana",
+        "label_zh": "加纳",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "AS",
+        "label_en": "American Samoa",
+        "label_zh": "American Samoa",
+        "count": 1
+      },
+      {
+        "value": "MO",
+        "label_en": "Macao",
+        "label_zh": "澳门",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "BZ",
+        "label_en": "Belize",
+        "label_zh": "伯利兹",
+        "count": 1,
+        "continent": "North America"
+      },
+      {
+        "value": "TG",
+        "label_en": "Togo",
+        "label_zh": "多哥",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "PY",
+        "label_en": "Paraguay",
+        "label_zh": "巴拉圭",
+        "count": 1,
+        "continent": "South America"
+      },
+      {
+        "value": "IM",
+        "label_en": "Isle Of Man",
+        "label_zh": "Isle Of Man",
+        "count": 1
+      },
+      {
+        "value": "FI",
+        "label_en": "Finland",
+        "label_zh": "芬兰",
+        "count": 1,
+        "continent": "Europe"
+      },
+      {
+        "value": "CY",
+        "label_en": "Cyprus",
+        "label_zh": "塞浦路斯",
+        "count": 1,
+        "continent": "Asia"
+      },
+      {
+        "value": "YT",
+        "label_en": "Mayotte",
+        "label_zh": "马约特",
+        "count": 1,
+        "continent": "Africa"
+      },
+      {
+        "value": "MY",
+        "label_en": "Malaysia",
+        "label_zh": "马来西亚",
+        "count": 1,
+        "continent": "Asia"
+      }
+    ],
+    "genres": [
+      {
+        "value": "pop",
+        "label_en": "pop",
+        "label_zh": "流行",
+        "count": 43
+      },
+      {
+        "value": "rock",
+        "label_en": "rock",
+        "label_zh": "摇滚",
+        "count": 13
+      },
+      {
+        "value": "unknown",
+        "label_en": "unknown",
+        "label_zh": "unknown",
+        "count": 13
+      },
+      {
+        "value": "news",
+        "label_en": "news",
+        "label_zh": "新闻",
+        "count": 11
+      },
+      {
+        "value": "classical",
+        "label_en": "classical",
+        "label_zh": "古典",
+        "count": 7
+      },
+      {
+        "value": "world",
+        "label_en": "world",
+        "label_zh": "世界音乐",
+        "count": 6
+      },
+      {
+        "value": "blues",
+        "label_en": "blues",
+        "label_zh": "蓝调",
+        "count": 5
+      },
+      {
+        "value": "jazz",
+        "label_en": "jazz",
+        "label_zh": "爵士",
+        "count": 5
+      },
+      {
+        "value": "hip_hop",
+        "label_en": "hip_hop",
+        "label_zh": "嘻哈",
+        "count": 4
+      },
+      {
+        "value": "electronic",
+        "label_en": "electronic",
+        "label_zh": "电子",
+        "count": 4
+      },
+      {
+        "value": "chill",
+        "label_en": "chill",
+        "label_zh": "轻松",
+        "count": 2
+      },
+      {
+        "value": "house",
+        "label_en": "house",
+        "label_zh": "浩室",
+        "count": 2
+      },
+      {
+        "value": "folk",
+        "label_en": "folk",
+        "label_zh": "民谣",
+        "count": 2
+      },
+      {
+        "value": "dance",
+        "label_en": "dance",
+        "label_zh": "舞曲",
+        "count": 1
+      },
+      {
+        "value": "talk",
+        "label_en": "talk",
+        "label_zh": "谈话",
+        "count": 1
+      },
+      {
+        "value": "instrumental",
+        "label_en": "instrumental",
+        "label_zh": "instrumental",
+        "count": 1
+      }
+    ],
+    "vibes": [
+      {
+        "value": "news",
+        "label_en": "NEWS",
+        "label_zh": "NEWS",
+        "count": 21,
+        "keywords": [
+          "news",
+          "information",
+          "information radio",
+          "talk",
+          "news talk",
+          "public radio"
+        ]
+      },
+      {
+        "value": "workout",
+        "label_en": "WORKOUT",
+        "label_zh": "WORKOUT",
+        "count": 19,
+        "keywords": [
+          "edm",
+          "rock",
+          "hip hop",
+          "hip-hop",
+          "hiphop",
+          "metal",
+          "drum and bass",
+          "workout",
+          "gym"
+        ]
+      },
+      {
+        "value": "coffee",
+        "label_en": "COFFEE",
+        "label_zh": "COFFEE",
+        "count": 11,
+        "keywords": [
+          "jazz",
+          "bossa nova",
+          "lounge",
+          "acoustic",
+          "café",
+          "cafe",
+          "coffee"
+        ]
+      },
+      {
+        "value": "party",
+        "label_en": "PARTY",
+        "label_zh": "PARTY",
+        "count": 6,
+        "keywords": [
+          "dance",
+          "edm",
+          "house",
+          "techno",
+          "party",
+          "trance",
+          "rave"
+        ]
+      },
+      {
+        "value": "focus",
+        "label_en": "FOCUS",
+        "label_zh": "FOCUS",
+        "count": 5,
+        "keywords": [
+          "classical",
+          "instrumental",
+          "ambient",
+          "piano",
+          "study",
+          "focus",
+          "background"
+        ]
+      },
+      {
+        "value": "chill",
+        "label_en": "CHILL",
+        "label_zh": "CHILL",
+        "count": 5,
+        "keywords": [
+          "chillout",
+          "chill",
+          "lounge",
+          "easy listening",
+          "ambient",
+          "relax",
+          "relaxing",
+          "smooth",
+          "smooth jazz"
+        ]
+      },
+      {
+        "value": "classical",
+        "label_en": "CLASSICAL",
+        "label_zh": "CLASSICAL",
+        "count": 4,
+        "keywords": [
+          "classical",
+          "symphony",
+          "opera",
+          "chamber",
+          "orchestral"
+        ]
+      }
+    ]
   },
-  "stations": []
+  "stations": [
+    {
+      "station_uuid": "78012206-1aa1-11e9-a80b-52543be04c81",
+      "name": "MANGORADIO",
+      "stream_url": "https://mangoradio.stream.laut.fm/mangoradio",
+      "stream_url_fallback": "https://mangoradio.stream.laut.fm/mangoradio",
+      "favicon": "https://mangoradio.de/wp-content/uploads/cropped-Logo-192x192.webp",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 385,
+      "click_trend": 385,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "variety"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "b81c57c3-eb05-47ac-a0ea-eb01a6960cc4",
+      "name": "LOS 40 Principales España",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+      "favicon": "https://los40es00.epimg.net/iconos/v1.x/v1.0/touch-apple.png",
+      "country_code": "ES",
+      "country_name_en": "Spain",
+      "country_name_zh": "西班牙",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 74,
+      "click_trend": 74,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 40.411823,
+      "geo_long": -3.735352,
+      "tags": [
+        "music",
+        "pop",
+        "top 40"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7afae7e3-8d06-42f5-b59e-a52d6e09e60e",
+      "name": "# RdMix Classic Rock 70s 80s 90s",
+      "stream_url": "https://cast1.torontocast.com:4610/stream",
+      "stream_url_fallback": "https://cast1.torontocast.com:4610/stream",
+      "favicon": "https://static.wixstatic.com/media/f361b3_1bad7e5fb9a54196b2ac2c2fe71d6e4f~mv2.jpg",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "workout",
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 103,
+      "click_trend": 103,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 43.637898,
+      "geo_long": -79.387553,
+      "tags": [
+        "60s",
+        "60s and 70s.",
+        "70's",
+        "70er",
+        "70s",
+        "80's",
+        "80er",
+        "80s",
+        "90's",
+        "90er",
+        "90s",
+        "blues",
+        "blues rock",
+        "classic blues",
+        "classic hits",
+        "classic hits 60s 70a 80s",
+        "classic rock",
+        "classic rock  50's 60's 70's 80's 90's",
+        "classic rock oldies",
+        "classic rock oldies soul",
+        "classic rock; alternative rock indie",
+        "country",
+        "entretenimiento",
+        "hard rock",
+        "high quality audio",
+        "hits",
+        "local radio",
+        "melodic hard rock",
+        "music",
+        "music 70s 80s 90s",
+        "musica",
+        "oldies",
+        "pop rock",
+        "public radio",
+        "real classic rock",
+        "r&b",
+        "rock",
+        "soft rock"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "5681d06a-f5af-11e9-bbf2-52543be04c81",
+      "name": "Radio Paradise Rock Mix 320k AAC",
+      "stream_url": "http://stream.radioparadise.com/rock-320",
+      "stream_url_fallback": "http://stream.radioparadise.com/rock-320",
+      "favicon": "https://radioparadise.com/apple-touch-icon.png",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 39,
+      "click_trend": 39,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 40.785114,
+      "geo_long": -124.183922,
+      "tags": [
+        "california",
+        "alternative",
+        "eclectic",
+        "rock",
+        "free",
+        "internet",
+        "non-commercial"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "b162d016-5628-42cf-8fb1-22866ba5f065",
+      "name": "Play 90's",
+      "stream_url": "http://live.playradio.org:9090/90HD",
+      "stream_url_fallback": "http://live.playradio.org:9090/90HD",
+      "favicon": "https://is3-ssl.mzstatic.com/image/thumb/Music/v4/b7/89/4a/b7894a1a-07c8-d9ae-fc50-5fcc33c59173/source/280x280.jpg",
+      "country_code": "RO",
+      "country_name_en": "Romania",
+      "country_name_zh": "罗马尼亚",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "party"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 16,
+      "click_trend": 16,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 44.175079,
+      "geo_long": 28.633804,
+      "tags": [
+        "90s",
+        "dance",
+        "euro hits",
+        "eurodance"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english,romanian"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a2b92b15-ce28-4007-a756-b431abeb1059",
+      "name": "A MISSISSIPPI BLUES",
+      "stream_url": "https://cast1.torontocast.com:4450/;?type=http&nocache=1745625391",
+      "stream_url_fallback": "https://cast1.torontocast.com:4450/;?type=http&nocache=1745625391",
+      "favicon": "https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2025-04-26/7358e7e8c2649a65c1a9d821887e32e3.ico.png",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "blues",
+      "genre_label_en": "blues",
+      "genre_label_zh": "蓝调",
+      "vibes": [
+        "coffee",
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 41,
+      "click_trend": 41,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 43.827097,
+      "geo_long": -79.16748,
+      "tags": [
+        "blues",
+        "bluesrock",
+        "canada",
+        "country",
+        "delta blues",
+        "guitar",
+        "guitarist",
+        "jazz",
+        "mississippi",
+        "rock",
+        "rock and blues",
+        "soft blues"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7bc1f66f-412d-484b-82eb-b7b1c4575faa",
+      "name": "M80 Rádio – 80s",
+      "stream_url": "https://stream-icy.bauermedia.pt/m8080.aac",
+      "stream_url_fallback": "https://stream-icy.bauermedia.pt/m8080.aac",
+      "favicon": "http://webradiodirectory.com/wp-content/uploads/2021/01/cc9443f16e2af31ba205ac82214760c9.jpg",
+      "country_code": "PT",
+      "country_name_en": "Portugal",
+      "country_name_zh": "葡萄牙",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 42,
+      "click_trend": 42,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 38.709089,
+      "geo_long": -9.151955,
+      "tags": [
+        "80s",
+        "pop",
+        "romantic"
+      ],
+      "languages": [
+        {
+          "code": "pt",
+          "name_en": "portuguese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "89b63085-db05-4c2b-86a4-ee2f17ed2018",
+      "name": "# 100 GREATEST CLASSICAL MUSIC",
+      "stream_url": "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3",
+      "stream_url_fallback": "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3",
+      "favicon": "https://static.wixstatic.com/media/f361b3_f977feb1ff14484cb53e8bf0fbff1801~mv2.jpg",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [
+        "focus",
+        "news",
+        "classical"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 26,
+      "click_trend": 26,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 43.640489,
+      "geo_long": -79.395798,
+      "tags": [
+        "baroque",
+        "chamber",
+        "chamber music",
+        "classical",
+        "classical baroque",
+        "classical piano",
+        "community radio",
+        "entertainment",
+        "local news",
+        "music",
+        "musica",
+        "opera",
+        "public radio",
+        "symphonic",
+        "traditional opera"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "9257ed3b-c422-43cf-a8dd-8165861b3187",
+      "name": "Radio Disney 94.3 - Buenos Aires, Argentina",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.aac",
+      "favicon": "https://cdn-profiles.tunein.com/s13659/images/logog.png",
+      "country_code": "AR",
+      "country_name_en": "Argentina",
+      "country_name_zh": "阿根廷",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 37,
+      "click_trend": 37,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -34.601064,
+      "geo_long": -58.392849,
+      "tags": [
+        "94.3 fm",
+        "américa",
+        "argentina",
+        "buenos aires",
+        "disney",
+        "entretenimiento",
+        "español",
+        "estación",
+        "familia",
+        "family",
+        "juvenil",
+        "latinoamérica",
+        "moi merino",
+        "música",
+        "música en español e inglés",
+        "música pop",
+        "pop",
+        "pop en español e inglés",
+        "pop rock",
+        "radio disney",
+        "suramérica",
+        "top 40",
+        "top charts",
+        "top hits"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "0c773186-a382-4978-8e01-5650d325132d",
+      "name": "Radio Oxígeno",
+      "stream_url": "https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/live.m3u8",
+      "stream_url_fallback": "https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/live.m3u8",
+      "favicon": "https://graph.facebook.com/RadioOxigenoFM/picture?width=200&height=200",
+      "country_code": "PE",
+      "country_name_en": "Peru",
+      "country_name_zh": "秘鲁",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 13,
+      "click_trend": 13,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -12.059735,
+      "geo_long": -77.047119,
+      "tags": [
+        "música",
+        "pop",
+        "rock"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "0d9fefee-774a-469c-9610-af4cf2615a38",
+      "name": "80s 90s Super Pop Hits",
+      "stream_url": "https://s4.myradiostream.com:7344/listen.mp3?",
+      "stream_url_fallback": "https://s4.myradiostream.com:7344/listen.mp3?",
+      "favicon": "https://cdn.mytuner.mobi/static/ctr/icons/App_192x192/au.png",
+      "country_code": "AU",
+      "country_name_en": "Australia",
+      "country_name_zh": "澳大利亚",
+      "continent": "Oceania",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 28,
+      "click_trend": 28,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -32.975491,
+      "geo_long": 146.425781,
+      "tags": [
+        "80s",
+        "90s",
+        "hits"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "cfb5f97a-1cae-486f-888a-97231b903a5a",
+      "name": "Venice Classic Radio *LIVE",
+      "stream_url": "http://116.202.241.212:8020/",
+      "stream_url_fallback": "http://116.202.241.212:8020/",
+      "favicon": "https://www.veniceclassicradio.eu/player/new/image/l.png",
+      "country_code": "IT",
+      "country_name_en": "Italy",
+      "country_name_zh": "意大利",
+      "continent": "Europe",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [
+        "focus",
+        "classical"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 14,
+      "click_trend": 14,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 45.437814,
+      "geo_long": 12.33902,
+      "tags": [
+        "classical",
+        "live"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english,italian"
+        }
+      ]
+    },
+    {
+      "station_uuid": "f0ca8aff-861f-497c-a1d1-4a82bb4471ac",
+      "name": "RADIO CLUB DJ",
+      "stream_url": "http://4stream.pl:18272/stream",
+      "stream_url_fallback": "http://4stream.pl:18272/stream",
+      "favicon": "https://radioclubdj.prv.pl/rcd.png",
+      "country_code": "PL",
+      "country_name_en": "Poland",
+      "country_name_zh": "波兰",
+      "continent": "Europe",
+      "genre_key": "dance",
+      "genre_label_en": "dance",
+      "genre_label_zh": "舞曲",
+      "vibes": [
+        "party"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 6,
+      "click_trend": 6,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 52.110116,
+      "geo_long": 20.904926,
+      "tags": [
+        "dance",
+        "dj remix"
+      ],
+      "languages": [
+        {
+          "code": "de",
+          "name_en": "chinese,english,french,german,indian,italian,japanese,polish,romanian,spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "ceb2178c-34f3-4c5a-9dd6-0d9b60f28abf",
+      "name": "ORTB Radio Parakou",
+      "stream_url": "https://listen.radioking.com/radio/51919/stream/88927",
+      "stream_url_fallback": "https://listen.radioking.com/radio/51919/stream/88927",
+      "favicon": "https://srtb.bj/wp-content/uploads/2024/07/BANNIERE-SITE-RADIO-PARAKOU.jpg",
+      "country_code": "BJ",
+      "country_name_en": "Benin",
+      "country_name_zh": "贝宁",
+      "continent": "Africa",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 9.382804,
+      "geo_long": 2.511288,
+      "tags": [
+        "music",
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a4e98f6e-e326-41eb-97a4-f5f477842fab",
+      "name": "Alternatif radio jakarta",
+      "stream_url": "https://void.idserverhost.com/8016/stream",
+      "stream_url_fallback": "https://void.idserverhost.com/8016/stream",
+      "favicon": "https://tokopemancar99.blogspot.com/2022/09/live-streaming-alternatif-radio.html",
+      "country_code": "ID",
+      "country_name_en": "Indonesia",
+      "country_name_zh": "印度尼西亚",
+      "continent": "Asia",
+      "genre_key": "jazz",
+      "genre_label_en": "jazz",
+      "genre_label_zh": "爵士",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -7.070262,
+      "geo_long": 108.444111,
+      "tags": [
+        "easy listning",
+        "jazz",
+        "pop",
+        "top 40"
+      ],
+      "languages": [
+        {
+          "name_en": "bahasa indonesia"
+        }
+      ]
+    },
+    {
+      "station_uuid": "bf7abc5e-1537-4881-b848-1fa57f60c931",
+      "name": "ABC Jazz 20220701",
+      "stream_url": "https://mediaserviceslive.akamaized.net/hls/live/2038319/abcjazz/masterhq.m3u8",
+      "stream_url_fallback": "https://mediaserviceslive.akamaized.net/hls/live/2038319/abcjazz/masterhq.m3u8",
+      "favicon": "https://www.abc.net.au/favicon.ico",
+      "country_code": "AU",
+      "country_name_en": "Australia",
+      "country_name_zh": "澳大利亚",
+      "continent": "Oceania",
+      "genre_key": "blues",
+      "genre_label_en": "blues",
+      "genre_label_zh": "蓝调",
+      "vibes": [
+        "chill",
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -37.814254,
+      "geo_long": 144.941682,
+      "tags": [
+        "blues",
+        "jazz",
+        "smooth jazz"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "434ab4b9-252f-44c4-ad71-8f3c8dd9bcff",
+      "name": "CKWR 98.5  \"Real Community Radio\" Kitchener, ON",
+      "stream_url": "https://stream2.statsradio.com:8150/stream",
+      "stream_url_fallback": "https://stream2.statsradio.com:8150/stream",
+      "favicon": "https://media.socastsrm.com/uploads/station/1859/site_header_logo-5df3ffce8edd3.png",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 43.4397,
+      "geo_long": -80.465326,
+      "tags": [
+        "community radio",
+        "multingual"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "chinese,croatian,english,polish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a798586c-efc8-4f2b-ae3c-74729ce0f085",
+      "name": "Offshore Radio",
+      "stream_url": "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3",
+      "stream_url_fallback": "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3",
+      "favicon": "https://live.offshoreradio.net/static/uploads/offshore_radio/album_art.1773012574.png",
+      "country_code": "MH",
+      "country_name_en": "The Marshall Islands",
+      "country_name_zh": "马绍尔群岛",
+      "continent": "Oceania",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 7.086657,
+      "geo_long": 171.374131,
+      "tags": [
+        "alternative",
+        "classic rock",
+        "hard rock",
+        "rock",
+        "soft rock"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "b5fe26d1-ef12-4a65-8761-80f7678693da",
+      "name": "ESDES Radio",
+      "stream_url": "https://esdesradio.netpro.tv/listen/esdes_radio/radio.mp3",
+      "stream_url_fallback": "https://esdesradio.netpro.tv/listen/esdes_radio/radio.mp3",
+      "favicon": "https://www.esdesmada.com/wp-content/uploads/2024/11/esdes-logo-80x80-1.png",
+      "country_code": "MG",
+      "country_name_en": "Madagascar",
+      "country_name_zh": "马达加斯加",
+      "continent": "Africa",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -19.846811,
+      "geo_long": 46.669922,
+      "tags": [
+        "educational",
+        "hits",
+        "jazz"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "e723f7f8-0db1-4bc5-a64c-64d8377f9f9a",
+      "name": "ORF Hitradio Ö3 | HQ",
+      "stream_url": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+      "stream_url_fallback": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+      "favicon": "https://tubestatic.orf.at/mojo/1_3/storyserver//tube/common/images/apple-icons/oe3.png",
+      "country_code": "AT",
+      "country_name_en": "Austria",
+      "country_name_zh": "奥地利",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 176,
+      "click_trend": 176,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 48.177699,
+      "geo_long": 16.287771,
+      "tags": [
+        "orf",
+        "pop"
+      ],
+      "languages": []
+    },
+    {
+      "station_uuid": "8153ae5a-0cb6-4ed2-b54d-6e24ca5be5b6",
+      "name": "LOVE 972",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FM_PREM.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOVE972FM_PREM.aac",
+      "favicon": "https://www16.mediacorp.sg/melisten/radiostation-logos/love-972.png",
+      "country_code": "SG",
+      "country_name_en": "Singapore",
+      "country_name_zh": "新加坡",
+      "continent": "Asia",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 16,
+      "click_trend": 16,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 1.295374,
+      "geo_long": 103.792243,
+      "tags": [
+        "melisten"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "c11e8296-758d-4ece-a891-cad8236f8c09",
+      "name": "香港新城电台知讯台",
+      "stream_url": "https://1603884249.rsc.cdn77.org/1603884249/index.m3u8",
+      "stream_url_fallback": "https://1603884249.rsc.cdn77.org/1603884249/index.m3u8",
+      "favicon": "https://sao.fm/wp-content/uploads/20220401142443934-150x150.jpeg",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "talk",
+      "genre_label_en": "talk",
+      "genre_label_zh": "谈话",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 16,
+      "click_trend": 16,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 22.248429,
+      "geo_long": 114.169922,
+      "tags": [
+        "culture",
+        "music",
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "bc36c5f0-7b45-479f-aa41-3caf3a912377",
+      "name": "Radioacktiva (Bogotá) - 97.9 FM - HJJK - PRISA Radio - Bogotá, Colombia",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVAAAC.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVAAAC.aac",
+      "favicon": "https://www.radioacktiva.com/wp-content/uploads/2024/12/cropped-favicon-new1-180x180.png",
+      "country_code": "CO",
+      "country_name_en": "Colombia",
+      "country_name_zh": "哥伦比亚",
+      "continent": "South America",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 4.657106,
+      "geo_long": -74.085102,
+      "tags": [
+        "97.9 fm",
+        "bogotá",
+        "classic rock",
+        "classic rock oldies",
+        "classic rock; alternative rock",
+        "classic rock; alternative rock indie",
+        "colombia",
+        "entretenimiento",
+        "español",
+        "estación",
+        "juvenil",
+        "latinoamérica",
+        "moi merino",
+        "music",
+        "música",
+        "prisa radio",
+        "real classic rock",
+        "rock",
+        "rock classics",
+        "rock en español",
+        "rock en ingles",
+        "rock international",
+        "rock latino",
+        "suramérica"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "bb03737b-2116-42c3-ae23-81de72bbf729",
+      "name": "LOS40 Colombia",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC.aac",
+      "favicon": "https://cdn-profiles.tunein.com/p1306541/images/logod.png",
+      "country_code": "CO",
+      "country_name_en": "Colombia",
+      "country_name_zh": "哥伦比亚",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 13,
+      "click_trend": 13,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 4.657448,
+      "geo_long": -74.083385,
+      "tags": [
+        "bogotá",
+        "colombia",
+        "español",
+        "estación",
+        "juvenil",
+        "latin pop",
+        "latinoamérica",
+        "los40",
+        "moi merino",
+        "music",
+        "música",
+        "música en español",
+        "música pop",
+        "música urbana",
+        "online",
+        "online only",
+        "pop",
+        "pop rock",
+        "prisa radio",
+        "radio online",
+        "top",
+        "top 40",
+        "top 40 hits",
+        "top charts",
+        "top hits"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a0d91c55-3965-4a03-a0b7-2e76c8faa2cd",
+      "name": "YES 933",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/YES933_PREM.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/YES933_PREM.aac",
+      "favicon": "https://www16.mediacorp.sg/melisten/radiostation-logos/yes-933.png",
+      "country_code": "SG",
+      "country_name_en": "Singapore",
+      "country_name_zh": "新加坡",
+      "continent": "Asia",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 10,
+      "click_trend": 10,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 1.295364,
+      "geo_long": 103.792243,
+      "tags": [
+        "melisten"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "eef37dac-e2b2-4f37-bb86-81ac3fe65135",
+      "name": "CAPITAL 958",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FM_PREM.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/CAPITAL958FM_PREM.aac",
+      "favicon": "https://www16.mediacorp.sg/melisten/radiostation-logos/capital-958.png",
+      "country_code": "SG",
+      "country_name_en": "Singapore",
+      "country_name_zh": "新加坡",
+      "continent": "Asia",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 1.295374,
+      "geo_long": 103.792238,
+      "tags": [
+        "melisten"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "46e300c2-4013-4442-baa0-eeaae28cff1f",
+      "name": "Light FM 103.9 MHz ZYC699 (Belo Horizonte - MG)",
+      "stream_url": "https://8231.brasilstream.com.br/stream",
+      "stream_url_fallback": "https://8231.brasilstream.com.br/stream",
+      "favicon": "https://lightfm1039.com.br/wp-content/uploads/2022/09/cropped-favicon-180x180.png",
+      "country_code": "BR",
+      "country_name_en": "Brazil",
+      "country_name_zh": "巴西",
+      "continent": "South America",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 0,
+      "click_trend": 0,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -19.909786,
+      "geo_long": -43.946721,
+      "tags": [
+        "light classics"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "brazilian portuguese,english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "914c5407-33d7-426e-8729-ca794430611a",
+      "name": "Mas Flo (Tijuana) - 107.7 FM - XHRST-FM - MLC Media - Tijuana, Baja California",
+      "stream_url": "https://vsstreaming.com/8026/stream",
+      "stream_url_fallback": "https://vsstreaming.com/8026/stream",
+      "favicon": "https://upload.wikimedia.org/wikipedia/en/3/35/XHRST_1077_Mas_Flo_logo.png",
+      "country_code": "MX",
+      "country_name_en": "Mexico",
+      "country_name_zh": "墨西哥",
+      "continent": "North America",
+      "genre_key": "hip_hop",
+      "genre_label_en": "hip_hop",
+      "genre_label_zh": "嘻哈",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 0,
+      "click_trend": 0,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 32.502055,
+      "geo_long": -116.964483,
+      "tags": [
+        "107.7 fm",
+        "baja california",
+        "california",
+        "español",
+        "estación",
+        "juvenil",
+        "latin urban",
+        "latino urbano",
+        "latinoamérica",
+        "mainstream urban",
+        "mas flo",
+        "méxico",
+        "música",
+        "música en español",
+        "música urbana",
+        "norteamérica",
+        "reggaetón",
+        "san diego",
+        "tijuana",
+        "urban",
+        "urban contemporary",
+        "urbana",
+        "urbano",
+        "usa"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "af566e6b-3d2b-4b96-92ca-a9cb183e6fd8",
+      "name": "Free FM Tokyo",
+      "stream_url": "https://rocafmadrid.radioca.st/",
+      "stream_url_fallback": "https://rocafmadrid.radioca.st/",
+      "country_code": "JP",
+      "country_name_en": "Japan",
+      "country_name_zh": "日本",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 42,
+      "click_trend": 42,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 35.372255,
+      "geo_long": 139.790039,
+      "tags": [
+        "free fm",
+        "free japan music",
+        "musica",
+        "tokyo"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english,japanese,spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a3253a96-a1ba-4cf5-bf4b-ec7988afcfd3",
+      "name": "REGGAE CHILL CAFE",
+      "stream_url": "https://maggie.torontocast.com:2020/stream/reggaechillcafe",
+      "stream_url_fallback": "https://maggie.torontocast.com:2020/stream/reggaechillcafe",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "chill",
+      "genre_label_en": "chill",
+      "genre_label_zh": "轻松",
+      "vibes": [
+        "chill",
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 23,
+      "click_trend": 23,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 43.626625,
+      "geo_long": -79.385262,
+      "tags": [
+        "chill",
+        "chillout",
+        "dancehall",
+        "reggae",
+        "tropical"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "257d0088-3b8d-4b9c-9092-4507bef630fd",
+      "name": "Radio Eska Kraków",
+      "stream_url": "http://ic1.smcdn.pl/2070-1.mp3",
+      "stream_url_fallback": "http://ic1.smcdn.pl/2070-1.mp3",
+      "favicon": "https://cdn-profiles.tunein.com/s87779/images/logod.png?t=637867737470000000",
+      "country_code": "PL",
+      "country_name_en": "Poland",
+      "country_name_zh": "波兰",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 17,
+      "click_trend": 17,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 50.061265,
+      "geo_long": 19.936624,
+      "tags": [
+        "pop dance"
+      ],
+      "languages": []
+    },
+    {
+      "station_uuid": "cc0fdbe3-a2fb-4f0a-b67d-b47acd6354c7",
+      "name": "Technolovers DEEP HOUSE",
+      "stream_url": "https://stream.technolovers.fm/deep-house?ref=radiobrowser",
+      "stream_url_fallback": "https://stream.technolovers.fm/deep-house?ref=radiobrowser",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "house",
+      "genre_label_en": "house",
+      "genre_label_zh": "浩室",
+      "vibes": [
+        "party"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 50.684278,
+      "geo_long": 8.613281,
+      "tags": [
+        "house",
+        "electro house",
+        "electronic",
+        "elektro",
+        "elektronik",
+        "progressive house",
+        "vocal house"
+      ],
+      "languages": [
+        {
+          "code": "de",
+          "name_en": "english,german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "0d166210-c372-4ab8-9a68-d0665177b723",
+      "name": "JC La Bruja",
+      "stream_url": "http://s7.yesstreaming.net:8040/stream?1655753305283",
+      "stream_url_fallback": "http://s7.yesstreaming.net:8040/stream?1655753305283",
+      "country_code": "EC",
+      "country_name_en": "Ecuador",
+      "country_name_zh": "厄瓜多尔",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 0,
+      "click_trend": 0,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -0.194189,
+      "geo_long": -78.486757,
+      "tags": [
+        "música pop"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english,spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "43003dc7-d9a2-4931-aeb0-2433a5fe10a7",
+      "name": "Los 40 Ecuador",
+      "stream_url": "https://streamingecuador.com:7051/stream",
+      "stream_url_fallback": "https://streamingecuador.com:7051/stream.m3u",
+      "country_code": "EC",
+      "country_name_en": "Ecuador",
+      "country_name_zh": "厄瓜多尔",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -0.229273,
+      "geo_long": -78.518643,
+      "tags": [
+        "música pop"
+      ],
+      "languages": [
+        {
+          "name_en": "español internacional"
+        }
+      ]
+    },
+    {
+      "station_uuid": "1a62a959-f6d9-470e-b3ff-613318262b19",
+      "name": "Offshore Radio",
+      "stream_url": "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3",
+      "stream_url_fallback": "https://live.offshoreradio.net/listen/offshore_radio/radio.mp3",
+      "country_code": "SC",
+      "country_name_en": "Seychelles",
+      "country_name_zh": "塞舌尔",
+      "continent": "Africa",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -4.6191,
+      "geo_long": 55.4513,
+      "tags": [
+        "classic rock",
+        "hard rock",
+        "rock",
+        "seychelles",
+        "soft rock"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "932eb148-e6f6-11e9-a96c-52543be04c81",
+      "name": "FIP",
+      "stream_url": "http://icecast.radiofrance.fr/fip-hifi.aac",
+      "stream_url_fallback": "http://icecast.radiofrance.fr/fip-hifi.aac",
+      "favicon": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d5/FIP_logo_2005.svg/1024px-FIP_logo_2005.svg.png",
+      "country_code": "FR",
+      "country_name_en": "France",
+      "country_name_zh": "法国",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 175,
+      "click_trend": 175,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "aac",
+        "music",
+        "public radio",
+        "radio france"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "fd059cc5-b538-41c1-ae76-b8778a84c3db",
+      "name": "Radio 538",
+      "stream_url": "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3",
+      "stream_url_fallback": "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3",
+      "favicon": "https://www.538.nl/favicon.ico",
+      "country_code": "NL",
+      "country_name_en": "The Netherlands",
+      "country_name_zh": "荷兰",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 239,
+      "click_trend": 239,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 52.387509,
+      "geo_long": 4.85321,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "96102c22-0601-11e8-ae97-52543be04c81",
+      "name": "Jazz Radio Blues",
+      "stream_url": "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+      "stream_url_fallback": "http://jazzblues.ice.infomaniak.ch/jazzblues-high.mp3",
+      "favicon": "https://www.jazzradio.fr/apple-touch-icon-120x120.png",
+      "country_code": "FR",
+      "country_name_en": "France",
+      "country_name_zh": "法国",
+      "continent": "Europe",
+      "genre_key": "blues",
+      "genre_label_en": "blues",
+      "genre_label_zh": "蓝调",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 114,
+      "click_trend": 114,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "blues",
+        "jazz"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "d58a82c3-b7f1-4c1c-83b1-9e45d42e1e19",
+      "name": "Arrow Classic Rock",
+      "stream_url": "https://stream.player.arrow.nl/arrowcr",
+      "stream_url_fallback": "https://stream.player.arrow.nl/arrowcr",
+      "favicon": "https://player.arrow.nl/tmp/images/default.jpg",
+      "country_code": "NL",
+      "country_name_en": "The Netherlands",
+      "country_name_zh": "荷兰",
+      "continent": "Europe",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 42,
+      "click_trend": 42,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 52.212081,
+      "geo_long": 4.437577,
+      "tags": [
+        "classic rock",
+        "mp3",
+        "rock"
+      ],
+      "languages": []
+    },
+    {
+      "station_uuid": "960594a6-0601-11e8-ae97-52543be04c81",
+      "name": "Rock Antenne",
+      "stream_url": "http://mp3channels.webradio.rockantenne.de/rockantenne",
+      "stream_url_fallback": "http://mp3channels.webradio.rockantenne.de/rockantenne",
+      "favicon": "http://www.rockantenne.de/logos/rock-antenne/apple-touch-icon.png",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 145,
+      "click_trend": 145,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "rock"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "9627ddc0-0601-11e8-ae97-52543be04c81",
+      "name": "181.FM - Old School HipHop/RnB",
+      "stream_url": "http://listen.181fm.com/181-oldschool_128k.mp3",
+      "stream_url_fallback": "http://listen.181fm.com/181-oldschool_128k.mp3",
+      "favicon": "http://www.181.fm/favicon.ico",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "hip_hop",
+      "genre_label_en": "hip_hop",
+      "genre_label_zh": "嘻哈",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 79,
+      "click_trend": 79,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "hip-hop",
+        "oldschool",
+        "rnb",
+        "waynesboro"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "f3e828d4-b532-4ae7-8877-cdd69ada7f27",
+      "name": "105 FM - SP",
+      "stream_url": "http://www.appradio.app:8010//live",
+      "stream_url_fallback": "http://www.appradio.app:8010//live",
+      "country_code": "BR",
+      "country_name_en": "Brazil",
+      "country_name_zh": "巴西",
+      "continent": "South America",
+      "genre_key": "hip_hop",
+      "genre_label_en": "hip_hop",
+      "genre_label_zh": "嘻哈",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -23.478937,
+      "geo_long": -47.787064,
+      "tags": [
+        "pagode",
+        "hip-hop",
+        "samba"
+      ],
+      "languages": [
+        {
+          "code": "pt",
+          "name_en": "portuguese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "96136fe5-0601-11e8-ae97-52543be04c81",
+      "name": "Jazz Radio",
+      "stream_url": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+      "stream_url_fallback": "http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+      "favicon": "http://www.jazzradio.fr/apple-touch-icon-120x120.png",
+      "country_code": "FR",
+      "country_name_en": "France",
+      "country_name_zh": "法国",
+      "continent": "Europe",
+      "genre_key": "jazz",
+      "genre_label_en": "jazz",
+      "genre_label_zh": "爵士",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 53,
+      "click_trend": 53,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "jazz",
+        "soul"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "96274cbb-0601-11e8-ae97-52543be04c81",
+      "name": "Big R Radio - 80s Metal FM",
+      "stream_url": "http://bigrradio.cdnstream1.com/5186_128",
+      "stream_url_fallback": "http://bigrradio.cdnstream1.com/5186_128",
+      "favicon": "http://www.bigrradio.com/image/favicon/apple-touch-icon.png",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 44,
+      "click_trend": 44,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "80s",
+        "aor",
+        "glam metal",
+        "hair metal",
+        "hard rock",
+        "heavy metal",
+        "metal"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "9627dcf4-0601-11e8-ae97-52543be04c81",
+      "name": "181.FM - The Beat (HipHop/R&B)",
+      "stream_url": "http://listen.181fm.com/181-beat_128k.mp3",
+      "stream_url_fallback": "http://www.181.fm/stream/pls/181-beat.pls",
+      "favicon": "http://www.181.fm/favicon.ico",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "hip_hop",
+      "genre_label_en": "hip_hop",
+      "genre_label_zh": "嘻哈",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 38,
+      "click_trend": 38,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "hip-hop",
+        "rnb",
+        "urban",
+        "waynesboro"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "963fb390-0601-11e8-ae97-52543be04c81",
+      "name": "Radio Nova",
+      "stream_url": "http://novazz.ice.infomaniak.ch/novazz-128.mp3",
+      "stream_url_fallback": "http://novazz.ice.infomaniak.ch/novazz-128.mp3",
+      "favicon": "https://www.nova.fr/wp-content/uploads/sites/2/2021/02/cropped-favicon.png?fit=180%2c180&#038;quality=75",
+      "country_code": "FR",
+      "country_name_en": "France",
+      "country_name_zh": "法国",
+      "continent": "Europe",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 48,
+      "click_trend": 48,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "alternative",
+        "pop",
+        "world"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "96136071-0601-11e8-ae97-52543be04c81",
+      "name": "Jazz Radio Classic Jazz",
+      "stream_url": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
+      "stream_url_fallback": "http://jazz-wr01.ice.infomaniak.ch/jazz-wr01-128.mp3",
+      "favicon": "https://www.jazzradio.fr/apple-touch-icon-120x120.png",
+      "country_code": "FR",
+      "country_name_en": "France",
+      "country_name_zh": "法国",
+      "continent": "Europe",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [
+        "focus",
+        "coffee",
+        "classical"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 42,
+      "click_trend": 42,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "classical",
+        "jazz"
+      ],
+      "languages": [
+        {
+          "code": "fr",
+          "name_en": "french"
+        }
+      ]
+    },
+    {
+      "station_uuid": "8643cfcb-a7bb-4c46-8391-fffe266bce16",
+      "name": "RTE1",
+      "stream_url": "http://icecast.rte.ie/radio1",
+      "stream_url_fallback": "http://icecast.rte.ie/radio1",
+      "favicon": "http://i.imgur.com/KDHt1eb.jpg",
+      "country_code": "IE",
+      "country_name_en": "Ireland",
+      "country_name_zh": "爱尔兰",
+      "continent": "Europe",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 43,
+      "click_trend": 43,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "news",
+        "talk",
+        "variety"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "86fb3b9a-2b61-11e8-91bf-52543be04c81",
+      "name": "Los 40 Principales México",
+      "stream_url": "http://27063.live.streamtheworld.com/LOS40_MEXICO_SC",
+      "stream_url_fallback": "http://provisioning.streamtheworld.com/pls/LOS40_MEXICO.pls",
+      "favicon": "https://los40es00.epimg.net/estaticos/recursosgraficos/v1/img/app/los40_192.png",
+      "country_code": "MX",
+      "country_name_en": "Mexico",
+      "country_name_zh": "墨西哥",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 24,
+      "click_trend": 24,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "hits",
+        "latin pop",
+        "top 40"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "342a0e53-ab9b-11e9-88f4-52543be04c81",
+      "name": "TranceBase.FM - AAC HD 256k",
+      "stream_url": "http://listen.trancebase.fm/tunein-aac-hd-pls",
+      "stream_url_fallback": "http://listen.trancebase.fm/tunein-aac-hd-pls",
+      "favicon": "https://www.trancebase.fm/media/icons/trb/apple-touch-icon.png",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "electronic",
+      "genre_label_en": "electronic",
+      "genre_label_zh": "电子",
+      "vibes": [
+        "party"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 23,
+      "click_trend": 23,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "electronic",
+        "techno",
+        "trance"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "ffc0d701-f43b-4232-8be6-f7ff72add8ef",
+      "name": "Blasmusikradio mit Bernd",
+      "stream_url": "https://stream.laut.fm/blasmusikradio_mit_bernd",
+      "stream_url_fallback": "https://stream.laut.fm/blasmusikradio_mit_bernd",
+      "favicon": "https://assets.laut.fm/b22749b7fdb382b8912269e3d8054380?t=_120x120",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "folk",
+      "genre_label_en": "folk",
+      "genre_label_zh": "民谣",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 46,
+      "click_trend": 46,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "blasmusik",
+        "folk",
+        "marsch",
+        "polka"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "961185f5-0601-11e8-ae97-52543be04c81",
+      "name": "ChroniX Radio Metalcore",
+      "stream_url": "http://usa17.fastcast4u.com:5508/stream",
+      "stream_url_fallback": "http://usa17.fastcast4u.com:5508/listen.pls",
+      "favicon": "https://storage.googleapis.com/wzukusers/user-27172421/images/fav-6a63dee4b19e4b57a9038cc5f853f41a/apple-touch-icon-120x120.png?v=fav-6a63dee4b19e4b57a9038cc5f853f41a",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "electronic",
+      "genre_label_en": "electronic",
+      "genre_label_zh": "电子",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 13,
+      "click_trend": 13,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "death metal",
+        "heavy metal",
+        "industrial",
+        "metalcore",
+        "thrash metal"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "9619e7d7-0601-11e8-ae97-52543be04c81",
+      "name": "TMM 1",
+      "stream_url": "https://listen-msmn.sharp-stream.com/nme1.mp3",
+      "stream_url_fallback": "https://listen-msmn.sharp-stream.com/nme1.mp3",
+      "favicon": "https://cdn-profiles.tunein.com/s159857/images/logod.png",
+      "country_code": "GB",
+      "country_name_en": "The United Kingdom Of Great Britain And Northern Ireland",
+      "country_name_zh": "英国",
+      "continent": "Europe",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 15,
+      "click_trend": 15,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "alternative",
+        "garage",
+        "indie",
+        "indie pop",
+        "indie rock",
+        "left-field dance"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "961e719c-0601-11e8-ae97-52543be04c81",
+      "name": "181.FM - True Blues",
+      "stream_url": "http://listen.181fm.com/181-blues_128k.mp3",
+      "stream_url_fallback": "http://www.181.fm/stream/pls/181-blues.pls",
+      "favicon": "http://www.181.fm/favicon.ico",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "blues",
+      "genre_label_en": "blues",
+      "genre_label_zh": "蓝调",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 14,
+      "click_trend": 14,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "blues",
+        "waynesboro"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "d95c1da9-838c-4684-a009-44fc73608279",
+      "name": "80's New Wave Radio",
+      "stream_url": "https://puma.streemlion.com:2910/stream",
+      "stream_url_fallback": "https://puma.streemlion.com:2910/stream",
+      "country_code": "CA",
+      "country_name_en": "Canada",
+      "country_name_zh": "加拿大",
+      "continent": "North America",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 49.263145,
+      "geo_long": -123.087387,
+      "tags": [
+        "80's",
+        "alternative",
+        "new wave",
+        "synthpop"
+      ],
+      "languages": []
+    },
+    {
+      "station_uuid": "8c78482a-17db-4057-a7c7-8fa14b3c3ce9",
+      "name": "House Nation UK",
+      "stream_url": "https://streaming.radio.co/s06bd9d805/listen",
+      "stream_url_fallback": "https://streaming.radio.co/s06bd9d805/listen",
+      "favicon": "https://static.mytuner.mobi/media/tvos_radios/aWa7xGKfBh.jpg",
+      "country_code": "GB",
+      "country_name_en": "The United Kingdom Of Great Britain And Northern Ireland",
+      "country_name_zh": "英国",
+      "continent": "Europe",
+      "genre_key": "house",
+      "genre_label_en": "house",
+      "genre_label_zh": "浩室",
+      "vibes": [
+        "party"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 23,
+      "click_trend": 23,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "house"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "960536e6-0601-11e8-ae97-52543be04c81",
+      "name": "MDR Klassik",
+      "stream_url": "http://mdr-284350-0.cast.mdr.de/mdr/284350/0/mp3/high/stream.mp3",
+      "stream_url_fallback": "http://avw.mdr.de/streams/284350-0_mp3_high.m3u",
+      "favicon": "https://cdn.mdr.de/resources/global/img/mdrde/favicons/apple-icon-120x120.png",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [
+        "focus",
+        "classical"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 18,
+      "click_trend": 18,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "classical"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "96b88cb2-76a4-43fb-9257-e791103f5fa8",
+      "name": "臺北電台",
+      "stream_url": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8",
+      "stream_url_fallback": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8",
+      "favicon": "https://liveonlineradio.net/wp-content/uploads/2021/09/radio-taipei-93.1-fm-220x108.jpg",
+      "country_code": "TW",
+      "country_name_en": "Taiwan, Republic Of China",
+      "country_name_zh": "台湾",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 14,
+      "click_trend": 14,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "news",
+        "public radio",
+        "talk"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "8c0eaabf-29b1-4fae-86f1-e7cfa7ec4953",
+      "name": "Radio 5 Turkey",
+      "stream_url": "http://radyo.yayin.com.tr:4108/stream",
+      "stream_url_fallback": "https://radyo.yayin.com.tr/tunein/radiotrc.asx",
+      "favicon": "https://radio5.com.tr/wp-content/plugins/under-construction-page/themes/images/favicon.png",
+      "country_code": "TR",
+      "country_name_en": "Türkiye",
+      "country_name_zh": "土耳其",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "adult contemporary",
+        "hits",
+        "non-stop",
+        "top 100"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "96074d8b-0601-11e8-ae97-52543be04c81",
+      "name": "JazzRadio 106.8 Berlin",
+      "stream_url": "https://streaming.radio.co/s774887f7b/listen",
+      "stream_url_fallback": "https://streaming.radio.co/s774887f7b/listen",
+      "favicon": "https://jazzradio.net/wp-content/uploads/2023/06/jr-disc-10k-black.png",
+      "country_code": "DE",
+      "country_name_en": "Germany",
+      "country_name_zh": "德国",
+      "continent": "Europe",
+      "genre_key": "jazz",
+      "genre_label_en": "jazz",
+      "genre_label_zh": "爵士",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 12,
+      "click_trend": 12,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "jazz"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7759341b-7e8d-462b-885a-d6e974fc3816",
+      "name": "Rádio Expres",
+      "stream_url": "http://stream.expres.sk/128.mp3",
+      "stream_url_fallback": "http://stream.expres.sk/128.mp3",
+      "favicon": "https://sk.wikipedia.org/wiki/R%C3%A1dio_Expres#/media/S%C3%BAbor:Stare_logo_R%C3%A1dia_Expres.jpg",
+      "country_code": "SK",
+      "country_name_en": "Slovakia",
+      "country_name_zh": "斯洛伐克",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 15,
+      "click_trend": 15,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 48.148313,
+      "geo_long": 17.121506,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "29dc48c6-adf5-49bf-a9d7-dfde3e9cfc6d",
+      "name": "UK Bass Radio",
+      "stream_url": "https://www.ukbassradio.com/stream",
+      "stream_url_fallback": "https://www.ukbassradio.com/stream",
+      "favicon": "https://www.ukbassradio.com/wp-content/uploads/2021/03/cropped-thumbnail_ukbass-radio5.png",
+      "country_code": "GB",
+      "country_name_en": "The United Kingdom Of Great Britain And Northern Ireland",
+      "country_name_zh": "英国",
+      "continent": "Europe",
+      "genre_key": "electronic",
+      "genre_label_en": "electronic",
+      "genre_label_zh": "电子",
+      "vibes": [
+        "party",
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 16,
+      "click_trend": 16,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "old skool",
+        "rollers",
+        "techno",
+        "techstep",
+        "trance",
+        "uk bass",
+        "uk funky",
+        "uk garage",
+        "ukedm",
+        "ukg",
+        "breakbeat hardcore",
+        "drum and bass",
+        "drumfunk",
+        "dubstep",
+        "garage",
+        "hardcore",
+        "house",
+        "jump-up",
+        "jungle",
+        "liquid funk",
+        "neurofunk"
+      ],
+      "languages": [
+        {
+          "name_en": "british english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "960125a3-5b14-4dfc-970f-0a508dbd618d",
+      "name": "Radio Tvornica",
+      "stream_url": "https://c8.hostingcentar.com/streams/radiotvornica?type=http&nocache=50001",
+      "stream_url_fallback": "https://c8.hostingcentar.com/streams/radiotvornica?type=http&nocache=50001",
+      "favicon": "https://www.radiotvornica.hr/favicon.png",
+      "country_code": "HR",
+      "country_name_en": "Croatia",
+      "country_name_zh": "克罗地亚",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 14,
+      "click_trend": 14,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 45.801233,
+      "geo_long": 15.976318,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "82a2903d-b2d7-49c6-93f1-c1d734a9d21a",
+      "name": "REPLAY NEWS - 中文 每5分钟播报一次新闻的电台",
+      "stream_url": "https://replaynewszh.ice.infomaniak.ch/replaynewszh-128.mp3",
+      "stream_url_fallback": "https://replaynewszh.ice.infomaniak.ch/replaynewszh-128.mp3",
+      "favicon": "https://www.publicsante.com/BIENVENU/LOGO REPLAY NEWS-ZH.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 12,
+      "click_trend": 12,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "da169b36-d453-450e-90c9-274c65c15b2c",
+      "name": "Radio Mas 99.7 FM",
+      "stream_url": "https://kadushi.westream.cloud/listen/mas99/live",
+      "stream_url_fallback": "https://kadushi.westream.cloud/listen/mas99/live",
+      "favicon": "https://www.mas99.cw/favicon.ico",
+      "country_code": "CW",
+      "country_name_en": "Curacao",
+      "country_name_zh": "Curacao",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 9,
+      "click_trend": 9,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "pop",
+        "top 40",
+        "world"
+      ],
+      "languages": [
+        {
+          "name_en": "willemstad"
+        }
+      ]
+    },
+    {
+      "station_uuid": "3e5a08bf-57fc-420a-a543-2f7c6f7b6a06",
+      "name": "Mix Megapol GBG",
+      "stream_url": "http://tx-bauerse.sharp-stream.com/http_live.php?i=mixmegapolgbg_instream_se_mp3",
+      "stream_url_fallback": "http://tx-bauerse.sharp-stream.com/http_live.php?i=mixmegapolgbg_instream_se_mp3",
+      "favicon": "https://radioplay.se/tesla/static/favicons/radioplay-se/favicon.ico",
+      "country_code": "SE",
+      "country_name_en": "Sweden",
+      "country_name_zh": "瑞典",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 57.712263,
+      "geo_long": 11.999817,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "9cc87217-fc59-4335-a7d7-050407527f9a",
+      "name": "Voice of Korea",
+      "stream_url": "https://listen7.myradio24.com/69366",
+      "stream_url_fallback": "https://listen7.myradio24.com/69366",
+      "country_code": "KP",
+      "country_name_en": "The Democratic Peoples Republic Of Korea",
+      "country_name_zh": "朝鲜",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 5,
+      "click_trend": 5,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 39.036507,
+      "geo_long": 125.758439,
+      "tags": [
+        "music",
+        "news"
+      ],
+      "languages": []
+    },
+    {
+      "station_uuid": "357fbb15-05ba-4219-968a-0c0408ec8dbf",
+      "name": "夜空傳情",
+      "stream_url": "http://procyon.shoutca.st:8492/listen.mp3",
+      "stream_url_fallback": "http://procyon.shoutca.st:8492/listen.mp3",
+      "favicon": "https://liveonlineradio.net/wp-content/uploads/2021/04/sunnys-music-show-220x108.jpg",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "cc9c0708-d100-43cc-a76b-e1fef63d2e43",
+      "name": "新西兰中文广播电台 FM90.6 Radio Chinese",
+      "stream_url": "https://s26.myradiostream.com:20274/listen.mp3",
+      "stream_url_fallback": "https://s26.myradiostream.com:20274/listen.mp3",
+      "favicon": "https://fm906.co.nz/images/nzc-logo.jpg",
+      "country_code": "NZ",
+      "country_name_en": "New Zealand",
+      "country_name_zh": "新西兰",
+      "continent": "Oceania",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 9,
+      "click_trend": 9,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "chinese",
+        "culture",
+        "news",
+        "lifestyle",
+        "music",
+        "new zealand"
+      ],
+      "languages": [
+        {
+          "code": "hak",
+          "name_en": "cantonese,chinese,hakka,hokkien"
+        }
+      ]
+    },
+    {
+      "station_uuid": "963b2e7a-0601-11e8-ae97-52543be04c81",
+      "name": "Radio Jazz 89.1 - JAZZ Vocals",
+      "stream_url": "http://jfm1.hostingradio.ru:14536/jvstream.mp3",
+      "stream_url_fallback": "http://jfm1.hostingradio.ru:14536/jvstream.mp3",
+      "favicon": "https://radiojazzfm.ru/favicons/favicon-32x32.png",
+      "country_code": "RU",
+      "country_name_en": "The Russian Federation",
+      "country_name_zh": "俄罗斯",
+      "continent": "Europe",
+      "genre_key": "jazz",
+      "genre_label_en": "jazz",
+      "genre_label_zh": "爵士",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 6,
+      "click_trend": 6,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "jazz vocal"
+      ],
+      "languages": [
+        {
+          "code": "ru",
+          "name_en": "russian"
+        }
+      ]
+    },
+    {
+      "station_uuid": "f522cf8a-9513-4975-974e-4335aac37cf3",
+      "name": "Vinyl FM",
+      "stream_url": "https://edge-bauerse-06-thn.sharp-stream.com/vinylfm_instream_se_mp3?",
+      "stream_url_fallback": "https://edge-bauerse-06-thn.sharp-stream.com/vinylfm_instream_se_mp3?",
+      "favicon": "https://assets.planetradio.co.uk/img/ConfigStraplineImageUrl/458.svg?ver=1589463934",
+      "country_code": "SE",
+      "country_name_en": "Sweden",
+      "country_name_zh": "瑞典",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 9,
+      "click_trend": 9,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 59.153403,
+      "geo_long": 18.061523,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "8636630a-3631-4ffc-b83f-0cef69949ce1",
+      "name": "民谣·蓝调",
+      "stream_url": "http://stream3.hndt.com/now/XWfN89gh/playlist.m3u8",
+      "stream_url_fallback": "http://stream3.hndt.com/now/XWfN89gh/playlist.m3u8",
+      "favicon": "http://cmsres.dianzhenkeji.com/anonymous/2021/12/9/4b072cf36c1f334220c6926eff4fbe51.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "blues",
+      "genre_label_en": "blues",
+      "genre_label_zh": "蓝调",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 7,
+      "click_trend": 7,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "blues",
+        "folk",
+        "music"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "6be26492-2d96-444d-afa6-91fd5b374bed",
+      "name": "臺北電台AM",
+      "stream_url": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/am/playlist.m3u8",
+      "stream_url_fallback": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/am/playlist.m3u8",
+      "favicon": "http://www.radio.gov.taipei/images/favicon.ico",
+      "country_code": "TW",
+      "country_name_en": "Taiwan, Republic Of China",
+      "country_name_zh": "台湾",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 6,
+      "click_trend": 6,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "public radio"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "d714b8c3-9a52-4e17-aa62-a971f17f9462",
+      "name": "Brian FM 105.6 Nelson NZ",
+      "stream_url": "https://ais-sa1.streamon.fm/7358_128k.aac/playlist.m3u8",
+      "stream_url_fallback": "https://ais-sa1.streamon.fm/7358_128k.aac/playlist.m3u8",
+      "favicon": "https://s3.amazonaws.com/streaming-player-assets/BrianFMNel/custom/images/brianfmnel-logo-20190225094751.png",
+      "country_code": "NZ",
+      "country_name_en": "New Zealand",
+      "country_name_zh": "新西兰",
+      "continent": "Oceania",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 10,
+      "click_trend": 10,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -41.320726,
+      "geo_long": 173.28186,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "4889d4ef-a405-11e8-abb8-52543be04c81",
+      "name": "Easy 80s",
+      "stream_url": "http://procyon.shoutca.st:8032/;",
+      "stream_url_fallback": "http://procyon.shoutca.st:8032/;",
+      "favicon": "https://cdn-profiles.tunein.com/s302357/images/logoq.png",
+      "country_code": "NZ",
+      "country_name_en": "New Zealand",
+      "country_name_zh": "新西兰",
+      "continent": "Oceania",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "chill"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 15,
+      "click_trend": 15,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "80s",
+        "easy listening"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "9a2b2498-c09b-4b8e-b058-6bc02f8251ee",
+      "name": "Radio Láser Inglés",
+      "stream_url": "https://sp4.colombiatelecom.com.co/8032/stream",
+      "stream_url_fallback": "https://sp4.colombiatelecom.com.co/8032/stream",
+      "favicon": "https://laser.com.sv/wp-content/uploads/2020/09/cropped-favicon-180x180.png",
+      "country_code": "SV",
+      "country_name_en": "El Salvador",
+      "country_name_zh": "萨尔瓦多",
+      "continent": "North America",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 13.71217,
+      "geo_long": -89.184265,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "60951832-3971-4d80-9647-1ee5b80880f9",
+      "name": "Columbia Estéreo 92.7 FM",
+      "stream_url": "https://s5.radio.co/sca838cc60/listen",
+      "stream_url_fallback": "https://s5.radio.co/sca838cc60/listen",
+      "favicon": "https://columbiaestereo.com/wp-content/uploads/2022/09/fndo-rosa-05-2-768x244.png",
+      "country_code": "CR",
+      "country_name_en": "Costa Rica",
+      "country_name_zh": "哥斯达黎加",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 6,
+      "click_trend": 6,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "baladas en español",
+        "baladas en ingles",
+        "musica romantica"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7babd377-ed7c-4a63-9778-47b0fd94983b",
+      "name": "Oroko Radio",
+      "stream_url": "https://oroko-radio.radiocult.fm/stream",
+      "stream_url_fallback": "https://oroko-radio.radiocult.fm/stream",
+      "favicon": "https://oroko.live/favicon.ico",
+      "country_code": "GH",
+      "country_name_en": "Ghana",
+      "country_name_zh": "加纳",
+      "continent": "Africa",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 5,
+      "click_trend": 5,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "alternative",
+        "community radio",
+        "music",
+        "variety"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "809a0f17-d636-497e-a38b-3b3031ce2d40",
+      "name": "WKDM 纽约华语广播国语台",
+      "stream_url": "https://video1.getstreamhosting.com:8292/stream?.mp3",
+      "stream_url_fallback": "https://video1.getstreamhosting.com:8292/stream?.mp3",
+      "favicon": "http://gbm.123tv.cn/file/2023/08-1690893620.jpg",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 5,
+      "click_trend": 5,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "full service",
+        "news",
+        "lifestyle",
+        "new york",
+        "new york city"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "1a80f163-086f-495e-8d1b-267fc4349cab",
+      "name": "心灵音乐馆",
+      "stream_url": "http://stream3.hndt.com/now/AFqvb0VX/playlist.m3u8",
+      "stream_url_fallback": "http://stream3.hndt.com/now/AFqvb0VX/playlist.m3u8",
+      "favicon": "https://cmsres.dianzhenkeji.com/anonymous/2021/12/9/f7cb3fc8f0bd8f94cb96fb35e12fbca3.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "instrumental",
+      "genre_label_en": "instrumental",
+      "genre_label_zh": "instrumental",
+      "vibes": [
+        "chill",
+        "focus"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "instrumental",
+        "nature",
+        "chillout"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "c76649db-9464-4c20-af1b-9c0e01004680",
+      "name": "Christmas Classics",
+      "stream_url": "http://listen.181fm.com/181-xtraditional_128k.mp3?listenerId=esAdblock074493&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1669379836",
+      "stream_url_fallback": "http://listen.181fm.com/181-xtraditional_128k.mp3?listenerId=esAdblock074493&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1669379836",
+      "favicon": "http://player.181fm.com/?station=181-xtraditional",
+      "country_code": "AS",
+      "country_name_en": "American Samoa",
+      "country_name_zh": "American Samoa",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 39.153421,
+      "geo_long": -104.342262,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "a7dfd0bc-c9cd-492d-aeb4-e43c8ed83745",
+      "name": "Radio Top 80 Macau 強電台 - 89.9 FM",
+      "stream_url": "http://live.top80.fm:8086/;",
+      "stream_url_fallback": "http://live.top80.fm:8086/;",
+      "favicon": "https://img.radios.com.br/radio/xl/radio232214_1699645003.jpg",
+      "country_code": "MO",
+      "country_name_en": "Macao",
+      "country_name_zh": "澳门",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "2000s",
+        "80s",
+        "90s",
+        "classic hits",
+        "retro"
+      ],
+      "languages": [
+        {
+          "code": "cmn",
+          "name_en": "cantonese,mandarin"
+        }
+      ]
+    },
+    {
+      "station_uuid": "33baec18-c053-11e9-8502-52543be04c81",
+      "name": "REYFM - #chillout",
+      "stream_url": "https://listen.reyfm.de/chillout_192kbps.mp3",
+      "stream_url_fallback": "https://listen.reyfm.de/chillout_192kbps.mp3",
+      "favicon": "https://www.reyfm.de/_nuxt/icons/icon_64x64.88ab9f.png",
+      "genre_key": "chill",
+      "genre_label_en": "chill",
+      "genre_label_zh": "轻松",
+      "vibes": [
+        "chill"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "#chillout",
+        "chillout",
+        "rey",
+        "reyfm"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "4095e825-d5bf-4a00-b224-76fab0620019",
+      "name": "Krem Radio",
+      "stream_url": "http://159.65.32.199:8016/;",
+      "stream_url_fallback": "http://159.65.32.199:8016/;",
+      "favicon": "https://i0.wp.com/www.krembz.com/wp-content/uploads/2023/04/cropped-favicon.png?fit=180%2c180&#038;ssl=1",
+      "country_code": "BZ",
+      "country_name_en": "Belize",
+      "country_name_zh": "伯利兹",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 5,
+      "click_trend": 5,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "talk"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "d9cadca2-1ca3-4205-b983-f75d41436277",
+      "name": "Bridge Radio - 华语 HITS",
+      "stream_url": "https://das-edge11-live365-dal03.cdnstream.com/a57743_2",
+      "stream_url_fallback": "https://das-edge11-live365-dal03.cdnstream.com/a57743_2",
+      "favicon": "https://new.brg-radio.com/wp-content/uploads/2022/10/cropped-65-1.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "oldies"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese,chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "358a87bb-8117-4aa7-8eb8-48929f737866",
+      "name": "Radio Gameli",
+      "stream_url": "http://usa1.fastcast4u.com:3190/stream/",
+      "stream_url_fallback": "http://usa1.fastcast4u.com:3190/stream/",
+      "favicon": "https://radiolebene.tg/images/news/favicon-32x32.png",
+      "country_code": "TG",
+      "country_name_en": "Togo",
+      "country_name_zh": "多哥",
+      "continent": "Africa",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 5,
+      "click_trend": 5,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 6.162264,
+      "geo_long": 1.212616,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "3f82d490-0bf2-41bd-8c69-00f4fe8580e7",
+      "name": "Metro Plus 1044 AM",
+      "stream_url": "http://162.220.162.10:8011/stream",
+      "stream_url_fallback": "http://162.220.162.10:8011/stream",
+      "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNMHNUQklLiwV95JbCYaxW22hy5mMqCqxm1w&usqp=CAU",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "cmn",
+          "name_en": "english,mandarin"
+        }
+      ]
+    },
+    {
+      "station_uuid": "2eddf009-7c24-486b-bb8e-c43bc948430f",
+      "name": "幻想乡电台Gensokyo Radio",
+      "stream_url": "https://stream.gensokyoradio.net/3",
+      "stream_url_fallback": "https://stream.gensokyoradio.net/3",
+      "favicon": "https://gensokyoradio.net/images/gr8_logo.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "anime",
+        "anime radio",
+        "music",
+        "touhou",
+        "辽宁广播电视台"
+      ],
+      "languages": [
+        {
+          "code": "ja",
+          "name_en": "japanese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "f8df1bbf-be1f-41b8-b187-60ff60a14df6",
+      "name": "恐怖在線（周一至周五23:11）",
+      "stream_url": "https://acast01.kolorboxlab.com/radio/8010/radio.mp3",
+      "stream_url_fallback": "https://acast01.kolorboxlab.com/radio/8010/radio.mp3",
+      "favicon": "https://www.edmondpoon.com/img/edmondpoon_favicon.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "world",
+      "genre_label_en": "world",
+      "genre_label_zh": "世界音乐",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "storytelling"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "db29a363-60b4-4273-99b6-9fee973a7c1e",
+      "name": "Radio RQP 94.3 FM",
+      "stream_url": "http://dx85eyfuo1x2i.cloudfront.net/index.m3u8",
+      "stream_url_fallback": "http://dx85eyfuo1x2i.cloudfront.net/index.m3u8",
+      "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20250110_213941532.jpg?alt=media&token=e07edbc2-8494-41bf-82ab-6f114efdf664",
+      "country_code": "PY",
+      "country_name_en": "Paraguay",
+      "country_name_zh": "巴拉圭",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "pop",
+        "rock",
+        "soft",
+        "top 40"
+      ],
+      "languages": [
+        {
+          "name_en": "asunción"
+        }
+      ]
+    },
+    {
+      "station_uuid": "189d86d1-95ef-4d2b-98d6-ce7577c70395",
+      "name": "Bridge Radio - 华语 HITS （2）",
+      "stream_url": "https://das-edge11-live365-dal03.cdnstream.com/a57743_2",
+      "stream_url_fallback": "https://streaming.live365.com/a57743_2",
+      "favicon": "https://new.brg-radio.com/wp-content/uploads/2022/10/cropped-65-1.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "oldies"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese,chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "0b3b3d2e-da13-43ca-9063-880174892737",
+      "name": "EnergyFM",
+      "stream_url": "https://ukwesta.streaming.broadcast.radio/energyfm",
+      "stream_url_fallback": "https://ukwesta.streaming.broadcast.radio/energyfm",
+      "favicon": "https://www.energyfm.net/images2015/logo.png",
+      "country_code": "IM",
+      "country_name_en": "Isle Of Man",
+      "country_name_zh": "Isle Of Man",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 54.20593,
+      "geo_long": -4.564819,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "7dce19c2-bc7a-403f-95e6-c41a9cc075a6",
+      "name": "Bavarias Rock Ballads",
+      "stream_url": "https://laut.fm/bavarias-rock-ballads",
+      "stream_url_fallback": "https://laut.fm/bavarias-rock-ballads",
+      "favicon": "https://laut.fm/assets/touch-icons/favicon.ico?e0f1f5c1",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "metal ballads",
+        "rock ballads"
+      ],
+      "languages": [
+        {
+          "code": "DE",
+          "name_en": "german"
+        }
+      ]
+    },
+    {
+      "station_uuid": "09e92885-f0f0-4e8d-89d5-c66f5606bb6b",
+      "name": "Roll FM",
+      "stream_url": "http://stream.rollfm.fi/",
+      "stream_url_fallback": "http://stream.rollfm.fi/",
+      "favicon": "https://www.rollfm.fi/favicon.ico",
+      "country_code": "FI",
+      "country_name_en": "Finland",
+      "country_name_zh": "芬兰",
+      "continent": "Europe",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 60.290887,
+      "geo_long": 25.043171,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "e2f530df-f611-4f8c-81e9-2353d73ed7c8",
+      "name": "河南网络动感音乐台",
+      "stream_url": "http://stream3.hndt.com/now/ufjjbZxV/playlist.m3u8",
+      "stream_url_fallback": "http://stream3.hndt.com/now/ufjjbZxV/playlist.m3u8",
+      "favicon": "https://cmsres.dianzhenkeji.com/files/images/2019/03/28/1553753220447543.jpg",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "pop"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7758bd16-da9a-40db-9333-48a550b0801f",
+      "name": "BitrRcord",
+      "stream_url": "https://c10.radioboss.fm:18095/stream",
+      "stream_url_fallback": "https://c10.radioboss.fm:18095/stream",
+      "favicon": "https://bitrecord.one/favicon.ico",
+      "country_code": "CY",
+      "country_name_en": "Cyprus",
+      "country_name_zh": "塞浦路斯",
+      "continent": "Asia",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 47.880633,
+      "geo_long": 35.152102,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "341fd2bc-f6b5-49e1-b85c-e70f212d9c71",
+      "name": "Radio Disney Asia FM 100.7",
+      "stream_url": "https://listen.radioking.com/radio/453221/stream/508076",
+      "stream_url_fallback": "https://listen.radioking.com/radio/453221/stream/508076",
+      "favicon": "https://ar.radiodisney.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoPlayer.94eccc39.jpg&w=320&q=75",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "pop",
+        "top 40",
+        "variety",
+        "youth"
+      ],
+      "languages": [
+        {
+          "code": "cmn",
+          "name_en": "english,mandarin"
+        }
+      ]
+    },
+    {
+      "station_uuid": "b0df59ad-6b5e-43d0-9d3d-7a4f0ad8ce1e",
+      "name": "Mayotte La 1ère",
+      "stream_url": "http://mayotte.ice.infomaniak.ch/mayotte-128.mp3",
+      "stream_url_fallback": "http://mayotte.ice.infomaniak.ch/mayotte-128.mp3",
+      "favicon": "https://fr.wikipedia.org/wiki/Mayotte_La_Premi%C3%A8re_%28t%C3%A9l%C3%A9vision%29#/media/Fichier:Mayotte_La_1%C3%A8re_-_Logo_2018.svg",
+      "country_code": "YT",
+      "country_name_en": "Mayotte",
+      "country_name_zh": "马约特",
+      "continent": "Africa",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -12.776438,
+      "geo_long": 45.227494,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "9047f146-c0a0-477b-8ec1-a13db4780af4",
+      "name": "河南网络经典FM",
+      "stream_url": "http://stream3.hndt.com/now/C5NvUpwy/playlist.m3u8",
+      "stream_url_fallback": "http://stream3.hndt.com/now/C5NvUpwy/playlist.m3u8",
+      "favicon": "http://cmsres.dianzhenkeji.com/files/images/2017/12/14/1513241941253315.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 0,
+      "click_trend": 0,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "oldies"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a11da8ca-3f83-477d-a121-f19266d4bb06",
+      "name": "SIMI Radio",
+      "stream_url": "https://c25.radioboss.fm:8208/stream",
+      "stream_url_fallback": "https://c25.radioboss.fm:8208/stream",
+      "favicon": "https://www.simiradio.fm/assets/img/logo-Simiradio-transp.png",
+      "country_code": "MX",
+      "country_name_en": "Mexico",
+      "country_name_zh": "墨西哥",
+      "continent": "North America",
+      "genre_key": "electronic",
+      "genre_label_en": "electronic",
+      "genre_label_zh": "电子",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 0,
+      "click_trend": 0,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "electronic",
+        "pop",
+        "reguetón",
+        "top hits"
+      ],
+      "languages": [
+        {
+          "name_en": "español mexico"
+        }
+      ]
+    },
+    {
+      "station_uuid": "2c67000f-608a-443f-b59e-c3ca857b279d",
+      "name": "la chismosa",
+      "stream_url": "https://sp.dattavolt.com/8052/stream",
+      "stream_url_fallback": "https://sp.dattavolt.com/8052/stream",
+      "favicon": "https://lachismosafm.ec/wp-content/uploads/elementor/thumbs/LOGO-LA-CHISMOSA-qis9zqmwpdkd3vsuxzl4s8l65m4b877e574iskpse8.png",
+      "country_code": "EC",
+      "country_name_en": "Ecuador",
+      "country_name_zh": "厄瓜多尔",
+      "continent": "South America",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 8,
+      "click_trend": 8,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -2.793814,
+      "geo_long": -78.848877,
+      "tags": [
+        "80's",
+        "reguetón",
+        "rock"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a8e3ff95-272d-47d4-b5db-a2f2723abb5f",
+      "name": "Estilo FM Litoral 93.3 Mhz (Cubatão - SP) (ZYU943)",
+      "stream_url": "https://cloud1.cdnseguro.com:20492/stream",
+      "stream_url_fallback": "https://cloud1.cdnseguro.com:20492/stream",
+      "favicon": "https://estilo.fm.br/wp-content/uploads/2023/12/ESTILO-FM-SP-300x300.png",
+      "country_code": "BR",
+      "country_name_en": "Brazil",
+      "country_name_zh": "巴西",
+      "continent": "South America",
+      "genre_key": "classical",
+      "genre_label_en": "classical",
+      "genre_label_zh": "古典",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": -23.887112,
+      "geo_long": -46.426806,
+      "tags": [
+        "light classics"
+      ],
+      "languages": [
+        {
+          "name_en": "brazilian portuguese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "a5b56fc7-32ea-11e9-8f31-52543be04c81",
+      "name": "Convoy en vivo",
+      "stream_url": "https://live.convoynetwork.com/stream",
+      "stream_url_fallback": "https://live.convoynetwork.com/stream",
+      "favicon": "http://convoynetwork.com/assets/favicon.7a65c983.ico",
+      "country_code": "MX",
+      "country_name_en": "Mexico",
+      "country_name_zh": "墨西哥",
+      "continent": "North America",
+      "genre_key": "rock",
+      "genre_label_en": "rock",
+      "genre_label_zh": "摇滚",
+      "vibes": [
+        "workout"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 169,
+      "click_trend": 169,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "classic rock",
+        "latin music",
+        "rock"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "961b7325-0601-11e8-ae97-52543be04c81",
+      "name": ".977 80s",
+      "stream_url": "http://17573.live.streamtheworld.com/977_80_SC",
+      "stream_url_fallback": "http://playerservices.streamtheworld.com/pls/977_80.pls",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 165,
+      "click_trend": 165,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "80s"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "3f6d52c1-9373-4fd2-8bef-5dd476e4e7d2",
+      "name": "新闻联播",
+      "stream_url": "https://rfienchinois64k.ice.infomaniak.ch//rfienchinois-64.mp3",
+      "stream_url_fallback": "https://rfienchinois64k.ice.infomaniak.ch//rfienchinois-64.mp3",
+      "favicon": "https://www.rfi.fr/apple-touch-icon.png",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 58,
+      "click_trend": 58,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7ada8a81-5ae1-418c-8f18-51d2f38d86a4",
+      "name": "Bossa Jazz Brasil",
+      "stream_url": "https://centova5.transmissaodigital.com:20104/live",
+      "stream_url_fallback": "https://centova5.transmissaodigital.com:20104/live",
+      "favicon": "https://bossajazzbrasil.com/wp-content/uploads/2020/12/cropped-bjs-app-180x180.png",
+      "country_code": "BR",
+      "country_name_en": "Brazil",
+      "country_name_zh": "巴西",
+      "continent": "South America",
+      "genre_key": "jazz",
+      "genre_label_en": "jazz",
+      "genre_label_zh": "爵士",
+      "vibes": [
+        "coffee"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 39,
+      "click_trend": 39,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "bossa nova",
+        "jazz",
+        "mpb"
+      ],
+      "languages": [
+        {
+          "name_en": "brazilian portuguese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "531fced7-b22b-11e8-afe1-52543be04c81",
+      "name": "Antena 1 FM 94.7 São Paulo",
+      "stream_url": "http://antena1.newradio.it/stream",
+      "stream_url_fallback": "http://antena1.newradio.it/stream",
+      "favicon": "https://www.antena1.com.br/apple-touch-icon.png",
+      "country_code": "BR",
+      "country_name_en": "Brazil",
+      "country_name_zh": "巴西",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 39,
+      "click_trend": 39,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "adult contemporary",
+        "lite"
+      ],
+      "languages": [
+        {
+          "code": "pt",
+          "name_en": "portuguese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "6ee52ee9-95c0-4e19-95fd-d9a9c345b7b3",
+      "name": "988 FM",
+      "stream_url": "https://28103.live.streamtheworld.com/988_FMAAC.aac",
+      "stream_url_fallback": "https://28103.live.streamtheworld.com/988_FMAAC.aac",
+      "favicon": "https://www.988.com.my/wp-content/themes/988_web/assets/988-logo.png",
+      "country_code": "MY",
+      "country_name_en": "Malaysia",
+      "country_name_zh": "马来西亚",
+      "continent": "Asia",
+      "genre_key": "unknown",
+      "genre_label_en": "unknown",
+      "genre_label_zh": "unknown",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 37,
+      "click_trend": 37,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 3.133346,
+      "geo_long": 101.640836,
+      "tags": [],
+      "languages": []
+    },
+    {
+      "station_uuid": "961d5c4e-0601-11e8-ae97-52543be04c81",
+      "name": ".977 Hitz",
+      "stream_url": "http://18863.live.streamtheworld.com/977_HITS_SC",
+      "stream_url_fallback": "http://playerservices.streamtheworld.com/pls/977_HITS.pls",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 83,
+      "click_trend": 83,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "hits",
+        "top 40"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "08bcc582-f87b-43fc-96cd-5be0233566d5",
+      "name": "Bésame (Medellín) 94.9 FM",
+      "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac",
+      "stream_url_fallback": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac",
+      "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+      "country_code": "CO",
+      "country_name_en": "Colombia",
+      "country_name_zh": "哥伦比亚",
+      "continent": "South America",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 12,
+      "click_trend": 12,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "baladas",
+        "music",
+        "musica romantica",
+        "pop"
+      ],
+      "languages": [
+        {
+          "code": "es",
+          "name_en": "spanish"
+        }
+      ]
+    },
+    {
+      "station_uuid": "655def6d-734f-4ef7-972a-6abc56763162",
+      "name": "Bluegrass Country",
+      "stream_url": "https://ice24.securenetsystems.net/WAMU",
+      "stream_url_fallback": "https://ice24.securenetsystems.net/WAMU",
+      "favicon": "https://bluegrasscountry.org/favicon.ico",
+      "country_code": "US",
+      "country_name_en": "The United States Of America",
+      "country_name_zh": "美国",
+      "continent": "North America",
+      "genre_key": "folk",
+      "genre_label_en": "folk",
+      "genre_label_zh": "民谣",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 7,
+      "click_trend": 7,
+      "is_hls": false,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "bluegrass",
+        "country"
+      ],
+      "languages": [
+        {
+          "code": "en",
+          "name_en": "english"
+        }
+      ]
+    },
+    {
+      "station_uuid": "1c999a35-cbc8-45e8-98d0-20b664b44c34",
+      "name": "RTHK Radio 1",
+      "stream_url": "https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8",
+      "stream_url_fallback": "https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/index_56_a-p.m3u8",
+      "favicon": "https://cdn.webrad.io/images/logos/radios-hk/rthk-1.png",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 10,
+      "click_trend": 10,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "7c6d8cee-8c48-4895-b960-8103f6373508",
+      "name": "香港普通话台",
+      "stream_url": "https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8",
+      "stream_url_fallback": "https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8",
+      "favicon": "https://www.rthk.hk/img/apple-icon-114x114.png",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 4,
+      "click_trend": 4,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "news",
+        "public radio"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "44b20dae-1bbe-48d1-9f79-3c1f5396ef90",
+      "name": "正聲廣播公司",
+      "stream_url": "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/playlist.m3u8",
+      "stream_url_fallback": "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/playlist.m3u8",
+      "favicon": "https://www.csbc.com.tw/wp-content/uploads/2019/12/cropped-6044e1b77e91b4fe89b435-2-180x180.png",
+      "country_code": "TW",
+      "country_name_en": "Taiwan, Republic Of China",
+      "country_name_zh": "台湾",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "104.1",
+        "104.1 fm",
+        "public radio"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "f27f962c-b42a-4674-9b50-30216165b108",
+      "name": "RTHK Radio 5",
+      "stream_url": "https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8",
+      "stream_url_fallback": "https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/index_56_a-p.m3u8",
+      "favicon": "https://static.wikia.nocookie.net/hkradio/images/f/f8/RTHKRadio5_logo.gif/revision/latest?cb=20131022130417&path-prefix=zh",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "education",
+        "educational",
+        "news",
+        "public radio"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "3a5b3c97-1204-4a47-bf97-6bc08eba38b9",
+      "name": "RTHK Radio 8 央廣粵港澳大灣區之聲",
+      "stream_url": "https://rthkradiocmgrgb-live.akamaized.net/hls/live/2046112/radiocmgrgb/master.m3u8",
+      "stream_url_fallback": "https://rthkradiocmgrgb-live.akamaized.net/hls/live/2046112/radiocmgrgb/master.m3u8",
+      "favicon": "http://ytdem.radio.cn/oldres/cnvod/audio2017/ondemand/media/1100/20201230/1609294853242.jpg",
+      "country_code": "HK",
+      "country_name_en": "Hong Kong",
+      "country_name_zh": "香港",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "102.8",
+        "102.8 fm",
+        "public radio"
+      ],
+      "languages": [
+        {
+          "code": "yue",
+          "name_en": "cantonese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "de5a20d9-1fad-478a-8016-7301cb0216fa",
+      "name": "山东经典音乐广播",
+      "stream_url": "http://audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8",
+      "stream_url_fallback": "http://audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8",
+      "favicon": "http://www.iqilu.com/favicon.ico",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 2,
+      "click_trend": 2,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music",
+        "oldies"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "b9122011-21f1-4a11-937c-642dbab29635",
+      "name": "山东音乐广播",
+      "stream_url": "http://audiolive302.iqilu.com/sdradioYinyue/sdradio07/playlist.m3u8",
+      "stream_url_fallback": "http://audiolive302.iqilu.com/sdradioYinyue/sdradio07/playlist.m3u8",
+      "favicon": "http://v.iqilu.com/favicon.ico",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 1,
+      "click_trend": 1,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "music"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "6c5edef4-6a79-4ec7-84f7-b8430bcd0e4f",
+      "name": "经典105·山东经典音乐广播",
+      "stream_url": "http://audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8",
+      "stream_url_fallback": "http://audiolive302.iqilu.com/sdradioShenghuo/sdradio04/playlist.m3u8",
+      "favicon": "http://v.iqilu.com/favicon.ico",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "pop",
+      "genre_label_en": "pop",
+      "genre_label_zh": "流行",
+      "vibes": [],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 3,
+      "click_trend": 3,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": null,
+      "geo_long": null,
+      "tags": [
+        "golden music"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    },
+    {
+      "station_uuid": "ef678e2d-beea-40a2-b152-f73d57de4f52",
+      "name": "CRI环球资迅广播",
+      "stream_url": "https://sk.cri.cn/905.m3u8",
+      "stream_url_fallback": "https://sk.cri.cn/905.m3u8",
+      "favicon": "https://newsradio.cri.cn/favicon.ico",
+      "country_code": "CN",
+      "country_name_en": "China",
+      "country_name_zh": "中国",
+      "continent": "Asia",
+      "genre_key": "news",
+      "genre_label_en": "news",
+      "genre_label_zh": "新闻",
+      "vibes": [
+        "news"
+      ],
+      "quality_score": null,
+      "health_status": "healthy",
+      "click_count": 35,
+      "click_trend": 35,
+      "is_hls": true,
+      "bitrate_kbps": null,
+      "codec": null,
+      "geo_lat": 28.404929,
+      "geo_long": 120.668467,
+      "tags": [
+        "905fm",
+        "china",
+        "news"
+      ],
+      "languages": [
+        {
+          "code": "zh",
+          "name_en": "chinese"
+        }
+      ]
+    }
+  ]
 }

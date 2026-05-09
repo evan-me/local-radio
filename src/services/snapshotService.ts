@@ -62,6 +62,7 @@ export interface RadioSnapshot {
 
 let snapshotPromise: Promise<RadioSnapshot> | null = null
 
+
 function getSnapshotUrl(): string {
   if (typeof window === 'undefined') return './data/radio-snapshot.json'
   return new URL('./data/radio-snapshot.json', window.location.href).toString()
@@ -94,6 +95,10 @@ function validateSnapshot(value: unknown): RadioSnapshot {
 
   if (typeof value.generated_at !== 'string' || !value.generated_at) {
     throw new Error('Snapshot 格式非法：缺少 generated_at')
+  }
+
+  if (value.meta.total_stations <= 0 || value.stations.length <= 0) {
+    throw new Error('本地快照为空：请先生成 public/data/radio-snapshot.json，再启动应用')
   }
 
   return value as unknown as RadioSnapshot
